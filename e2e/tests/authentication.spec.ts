@@ -5,14 +5,14 @@ import { HomePage } from '../pages/HomePage';
 import { AdminPage } from '../pages/AdminPage';
 import { BookingManagementPage } from '../pages/BookingManagementPage';
 
-test.describe("Authentication page", async () => {
+test.describe('Authentication page', async () => {
     let homePage: HomePage;
     let adminPage: AdminPage;
     let bookingManagementPage: BookingManagementPage;
-    let roomName = faker.datatype.number(300).toLocaleString();
-    let roomType = 'Twin';
+    const roomName = faker.datatype.number(300).toLocaleString();
+    const roomType = 'Twin';
     let roomAccessible = false;
-    let roomPrice = '300';
+    const roomPrice = '300';
     
     test.beforeEach(async ({ page }) => {
         homePage = new HomePage(page);
@@ -26,7 +26,7 @@ test.describe("Authentication page", async () => {
         await expect(adminPage.header).toHaveText('Log into your account');
     });
 
-    test("Create room", async () => {
+    test('Create room', async () => {
         await adminPage.logIn(userData.User.username, userData.User.password);
         await expect(bookingManagementPage.managementHeader).toBeVisible();
         //we are creating accessible room
@@ -40,7 +40,4 @@ test.describe("Authentication page", async () => {
         await expect(bookingManagementPage.createdRoomPrice).toHaveText(roomPrice);
         await expect(bookingManagementPage.createdRoomDetails).toHaveText('TV, Radio');        
     });
-})
-
-
-
+});
