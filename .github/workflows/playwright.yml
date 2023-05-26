@@ -25,3 +25,19 @@ jobs:
         name: playwright-report
         path: playwright-report/
         retention-days: 30
+    - uses: actions/configure-pages@v2
+    - uses: actions/upload-pages-artifact@v1
+      with: 
+        # Upload entire repository
+        path: test-merge-report-demo/
+      id: deployment
+
+#   - name: Setup Pages
+#         uses: actions/configure-pages@v2
+#       - name: Upload artifact
+#         uses: actions/upload-pages-artifact@v1
+#         with:
+#           # Upload entire repository
+#           path: test-merge-report-demo/
+# - name: Deploy to GitHub Pages
+#         id: deployment
