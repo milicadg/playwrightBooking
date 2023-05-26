@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {"executeE2eTests": "playwright test --config=playwright.config.ts --project=ExecuteInChrome "},
   "keywords": [],
   "author": "",
   "license": "ISC",

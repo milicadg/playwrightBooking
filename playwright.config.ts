@@ -45,7 +45,8 @@ const config: PlaywrightTestConfig = {
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'devEnvironment',
+      name: 'ExecuteInChrome',
+      testDir: './e2e/tests',
       use: {
         headless:false,
         video: 'on',
