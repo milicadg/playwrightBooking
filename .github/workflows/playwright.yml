@@ -29,7 +29,7 @@ jobs:
       uses: actions/upload-pages-artifact@v1
       with: 
         # Upload entire repository
-        path: test-merge-report-demo/
+        path: playwright-report/
     - name: Deploy to GitHub pages
       id: deployment
       uses: actions/deploy-pages@v1
