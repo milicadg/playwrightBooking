@@ -4,6 +4,10 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 jobs:
   test:
     timeout-minutes: 60
@@ -31,4 +35,7 @@ jobs:
       uses: actions/upload-pages-artifact@v1
       with: 
         # Upload entire repository
-        path: playwright-report/
+        path: './test-results/'
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
