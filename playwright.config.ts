@@ -35,7 +35,7 @@ const config: PlaywrightTestConfig = {
           ['monocart-reporter', {  
               name: 'My Test Report',
               outputFile: './test-results/report.html',
-              trend: './test-results/report.json'
+              trend: () => './test-results/report.json'
           }]
         ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
