@@ -25,10 +25,10 @@ jobs:
       if: always()
       with:
         name: playwright-report
-        path: test-results/
+        path: playwright-report/
         retention-days: 30
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v1
       with: 
         # Upload entire repository
-        path: test-results/
+        path: playwright-report/
