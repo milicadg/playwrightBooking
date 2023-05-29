@@ -3,9 +3,6 @@
 
 # Ignore node_modules folder
 node_modules
-/test-results/
-/playwright-report/
-/playwright/.cache/
-/test-results/
+#/test-results/
 /playwright-report/
 /playwright/.cache/
