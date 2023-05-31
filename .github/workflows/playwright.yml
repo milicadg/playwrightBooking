@@ -21,7 +21,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18.x
           cache: ''
       
       - name: Install dependencies
@@ -47,7 +47,7 @@ jobs:
         with: 
         # Upload entire repository
           path: './test-results/'
-
+      
       - name: Deploy to GitHub Pages
-        #id: deployment
+        id: depl
         uses: actions/deploy-pages@v2
