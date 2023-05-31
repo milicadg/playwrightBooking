@@ -29,6 +29,7 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps    
   test:
+    needs: deploy
     runs-on: ubuntu-latest
     steps:
       - name: Run Playwright tests
