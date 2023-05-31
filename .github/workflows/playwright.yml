@@ -47,7 +47,3 @@ jobs:
         with: 
         # Upload entire repository
           path: './test-results/'
-      
-      - name: Deploy to GitHub Pages
-        id: depl
-        uses: actions/deploy-pages@v2
