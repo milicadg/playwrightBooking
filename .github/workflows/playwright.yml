@@ -1,41 +1,53 @@
-name: Playwright Tests
+name: Deploy playwright report
 on:
   push:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
+  # Allows to run this workflow manually from the Actions tab 
+  workflow_dispatch:
+# Sets permissions of the GITHUB_TOKEN to allow deplooyment to GitHub pages
 permissions:
   contents: read
   pages: write
-  id-token: write
+  id-token: read
 jobs:
-  test:
+  deploy:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
-      with:
-        node-version: 16
-    - name: Install dependencies
-      run: npm ci
-    - name: Install Playwright Browsers
-      run: npx playwright install --with-deps
-    - name: Run Playwright tests
-      run: npx playwright test
-    - name: Setup Pages
-      uses: actions/configure-pages@v2
-    - uses: actions/upload-artifact@v3
-      if: always()
-      with:
-        name: playwright-report
-        path: './test-results/'
-        retention-days: 30
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v1
-      with: 
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: ''
+      
+      - name: Install dependencies
+        run: npm ci
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+      
+      - name: Run Playwright tests
+        run: npx playwright test
+    
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      #- name: Upload artifact
+      #  uses: actions/upload-artifact@v3
+        #if: always()
+       # with:
+       # name: playwright-report
+      #    path: './test-results/'
+      #    retention-days: 30
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with: 
         # Upload entire repository
-        path: './test-results/'
-    #- name: Deploy to GitHub Pages
-    #  id: deployment
-    #  uses: actions/deploy-pages@v2
+          path: './test-results/'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
