@@ -57,7 +57,7 @@ const config: PlaywrightTestConfig = {
       name: 'ExecuteInChrome',
       testDir: './e2e/tests',
       use: {
-        headless:true,
+        headless:false,
         video: 'on',
         screenshot: 'only-on-failure',
         ...devices['Desktop Chrome']
