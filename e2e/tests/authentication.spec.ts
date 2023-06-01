@@ -38,6 +38,6 @@ test.describe('Authentication page', async () => {
         await expect(bookingManagementPage.createdRoomType).toHaveText(roomType);
         await expect(bookingManagementPage.createdRoomAccessible).toHaveText('true');
         await expect(bookingManagementPage.createdRoomPrice).toHaveText(roomPrice);
-        await expect(bookingManagementPage.createdRoomDetails).toHaveText('TV, Radio');        
+        await expect(bookingManagementPage.createdRoomDetails).toHaveText('TV, Radio, nesto');        
     });
 });
