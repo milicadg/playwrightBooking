@@ -42,8 +42,11 @@ jobs:
           path: './test-results/'
           retention-days: 30
 
-      - name: Upload artifact
+      - name: Upload page artifact
         uses: actions/upload-pages-artifact@v1
         with: 
         # Upload entire repository
-          path: './test-results/'
+          path: '.'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
