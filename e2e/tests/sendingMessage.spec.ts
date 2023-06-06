@@ -23,10 +23,30 @@ test.describe('Sending message', async () => {
     });
 
     test('Send message', async () => {
-        await sendMessagePage.sendMessage(contactName, email, phone, subject, description);
+        const message: [string, string, string, string,string] = [contactName, phone, email, subject, description];
+        await sendMessagePage.sendMessage(message);
         await expect(sendMessagePage.thanksMessage).toHaveText('Thanks for getting in touch ' + contactName +'!');
         await expect(sendMessagePage.beBackMessage).toHaveText('We\'ll get back to you about');
         await expect(sendMessagePage.sentSubject).toHaveText(subject);
         await expect(sendMessagePage.asSoonMessage).toHaveText('as soon as possible.');
+    });
+
+    test('Empty name when sending message',async () => {
+        const emptyField: [string, string, string, string, string] = ['', phone, email, subject, description];
+        await sendMessagePage.sendMessage(emptyField);
+        await expect(sendMessagePage.emptyErrorMessage).toHaveText('Name may not be blank');
+    });
+
+    test('Empty email when sending message',async () => {
+        const emptyField: [string, string, string, string, string] = [contactName, phone, '', subject, description];
+        await sendMessagePage.sendMessage(emptyField);
+        await expect(sendMessagePage.emptyErrorMessage).toHaveText('Email may not be blank');
+    });
+
+    test('Empty phone when sending message',async () => {
+        const emptyField: [string, string, string, string, string] = [contactName, '', email, subject, description];
+        await sendMessagePage.sendMessage(emptyField);
+        await expect(sendMessagePage.emptyErrorMessage.nth(0)).toBeVisible();
+        await expect(sendMessagePage.emptyErrorMessage.nth(1)).toBeVisible();
     });
 });

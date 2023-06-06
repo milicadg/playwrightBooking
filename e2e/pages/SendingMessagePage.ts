@@ -13,6 +13,7 @@ export class SendingMessagePage extends BasePage {
     readonly beBackMessage: Locator;
     readonly sentSubject: Locator;
     readonly asSoonMessage: Locator;
+    readonly emptyErrorMessage: Locator;
 
     constructor (page: Page) {
         super(page);
@@ -26,14 +27,16 @@ export class SendingMessagePage extends BasePage {
         this.beBackMessage = page.locator('//div[@class="row contact"]//div[2]//p[1]');
         this.sentSubject = page.locator('//div[@class="row contact"]//div[2]//p[2]');
         this.asSoonMessage = page.locator('//div[@class="row contact"]//div[2]//p[3]');
+        this.emptyErrorMessage = page.locator('//div[@class="alert alert-danger"]//p');
     }
 
-    async sendMessage(name: string, email: string, phone: string, subject: string, description: string) {
-        await this.contactName.fill(name);
-        await this.contactPhone.fill(phone);
-        await this.contactEmail.fill(email);
-        await this.contactSubject.fill(subject);
-        await this.contactDescription.fill(description);
+    async sendMessage(messageParameters:[string, string, string, string, string]) {
+        await this.contactName.fill(messageParameters[0]);
+        await this.contactPhone.fill(messageParameters[1]);
+        await this.contactEmail.fill(messageParameters[2]);
+        await this.contactSubject.fill(messageParameters[3]);
+        await this.contactDescription.fill(messageParameters[4]);
         await this.submit.click();
     }
+
 }
