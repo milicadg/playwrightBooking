@@ -31,8 +31,6 @@ jobs:
       
       - name: Run Playwright tests
         run: npx playwright test
-      - run: yarn
-      - run: yarn coverage:combined
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
