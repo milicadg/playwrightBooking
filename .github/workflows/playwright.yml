@@ -38,14 +38,14 @@ jobs:
         if: always()
         with:
           name: playwright-report
-          path: 'playwrightBooking/'
+          path: './playwrightBooking/'
           retention-days: 30
 
       - name: Upload page artifact
         uses: actions/upload-pages-artifact@v1
         with: 
         # Upload entire repository
-          path: 'playwrightBooking/'
+          path: './playwrightBooking/'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
