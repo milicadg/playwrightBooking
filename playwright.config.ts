@@ -1,4 +1,4 @@
-import  { PlaywrightTestConfig, devices } from '@playwright/test';
+import  { PlaywrightTestConfig, devices, defineConfig } from '@playwright/test';
 
 /**
  * Read environment variables from file.
@@ -29,15 +29,23 @@ const config: PlaywrightTestConfig = {
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 3 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
+  metadata: {
+    product: 'Monocart',
+    env: 'STG',
+    type: 'Regression',
+    executor: 'Mono',
+    
+    // test home page object model
+    url: 'https://www.npmjs.org/package/monocart-reporter'
+  },
   reporter: [
-         // ['html'],
-         // ['list'],
-          ['monocart-reporter', {  
-              name: 'My Test Report',
-              outputFile: './test-results/index.html',
-              trend: './test-results/report.json'
-          }]
-        ],
+    ['monocart-reporter', {  
+        name: 'My Test Report',
+        outputFile: './test-results/index.html',
+        trend: './test-results/report.json'
+    }]
+  ],
+
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     baseURL: 'https://automationintesting.online/',
@@ -47,8 +55,7 @@ const config: PlaywrightTestConfig = {
     // baseURL: 'http://localhost:3000',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on'
-    //'on-first-retry'
+    trace: 'on-first-retry'
   },
 
   /* Configure projects for major browsers */
