@@ -16,6 +16,7 @@ export class HomePage extends BasePage {
     }
 
     async goToAdminPanel() {
+        await this.adminLink.waitFor();
         await this.adminLink.click();
     }
 

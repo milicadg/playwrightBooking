@@ -17,6 +17,7 @@ export class AdminPage extends BasePage {
     }
 
     async logIn(username: string, password: string) {
+        await this.header.waitFor();
         await this.usernameLocator.fill(username);
         await this.passwordLocator.fill(password);
         await this.loginButton.click();

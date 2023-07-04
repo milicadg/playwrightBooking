@@ -1,4 +1,5 @@
-import  { PlaywrightTestConfig, devices, defineConfig } from '@playwright/test';
+import  { PlaywrightTestConfig, devices } from '@playwright/test';
+
 
 /**
  * Read environment variables from file.
@@ -10,7 +11,7 @@ import  { PlaywrightTestConfig, devices, defineConfig } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 const config: PlaywrightTestConfig = {
-  testDir: './e2e/tests',
+  testDir: './tests/',
   /* Maximum time one test can run for. */
   timeout: 30 * 3000,
   expect: {
@@ -35,6 +36,7 @@ const config: PlaywrightTestConfig = {
     type: 'Regression',
     executor: 'Mono',
     
+    
     // test home page object model
     url: 'https://www.npmjs.org/package/monocart-reporter'
   },
@@ -48,27 +50,37 @@ const config: PlaywrightTestConfig = {
 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    baseURL: 'https://automationintesting.online/',
     /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
     actionTimeout: 0,
     /* Base URL to use in actions like `await page.goto('/')`. */
-    // baseURL: 'http://localhost:3000',
+    baseURL: 'https://automationintesting.online',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry'
+    trace: 'on-first-retry',
+    extraHTTPHeaders: {
+      'Content-Type': 'application/json'
+    },
+    storageState: 'playwright/.auth/userAuth.json'
   },
 
   /* Configure projects for major browsers */
   projects: [
+    // Setup project
+    { 
+      name: 'setup', 
+      testMatch: 'authentication.setup.ts'
+    },
     {
       name: 'ExecuteInChrome',
-      testDir: './e2e/tests',
+      testDir: './tests/',
+      dependencies: ['setup'],
       use: {
         headless:true,
         video: 'on',
         screenshot: 'only-on-failure',
         ...devices['Desktop Chrome']
       }
+      
        
     }
     // {

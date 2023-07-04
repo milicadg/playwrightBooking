@@ -26,6 +26,7 @@ export class BookingManagementPage extends BasePage {
     readonly createdRoomSafe: Locator;
     readonly createdRoomView: Locator;
     readonly createdRoomDetails: Locator;
+    readonly errorMessage: Locator;
 
 
     constructor(page: Page, roomNameNumber:string) {
@@ -47,6 +48,7 @@ export class BookingManagementPage extends BasePage {
         this.safe = page.locator('#safeCheckbox');
         this.views = page.locator('#viewsCheckbox');
         this.createButton = page.locator('#createRoom');
+        this.errorMessage = page.locator('/div[@class="alert alert-danger"]/p[text()="must be greater than or equal to 1"]');
 
         //created room locators
         this.createdRoomName = page.locator('#roomName'+ roomNameNumber);
@@ -119,9 +121,16 @@ export class BookingManagementPage extends BasePage {
         await this.setRoomType(roomType);
         await this.setAccessible(isAccessible);
         await this.roomPrice.fill(price);
+        
         await this.setFeatures(hasFeatures);
         await this.createButton.click();
+        if (price == null) {
+            await this.errorMessage.isVisible();
+        }
+    }
 
+    async goToBookingManagement() {
+        await this.page.goto('/#/admin/', {waitUntil: 'domcontentloaded'});
     }
 
 }

@@ -8,7 +8,7 @@ export class BasePage {
     }
 
     async goToApp() {
-        await this.page.goto('/', {waitUntil: 'domcontentloaded'});
+        await this.page.goto('/', {waitUntil: 'commit'});
     }
 
     
