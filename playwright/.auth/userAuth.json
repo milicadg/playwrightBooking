@@ -1,0 +1,45 @@
+{
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.2.235039888.1688458017",
+      "domain": ".automationintesting.online",
+      "path": "/",
+      "expires": 1723018017.445953,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1147723051.1688458017",
+      "domain": ".automationintesting.online",
+      "path": "/",
+      "expires": 1688544417,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat",
+      "value": "1",
+      "domain": ".automationintesting.online",
+      "path": "/",
+      "expires": 1688458077,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "token",
+      "value": "dTsrjcao3ZIrXmuR",
+      "domain": "automationintesting.online",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
