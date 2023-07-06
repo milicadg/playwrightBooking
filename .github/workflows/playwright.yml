@@ -12,9 +12,10 @@ permissions:
   pages: write
   id-token: write
 jobs:
-  deploy:
+  install:
     timeout-minutes: 60
     runs-on: ubuntu-latest
+    name: install
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -22,15 +23,57 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18.x
-          cache: ''
-      
+      - name: Cache node_modules
+        uses: actions/cache@v3
+        id: cache-node-modules
+        with:
+          path: |
+            node_modules
+          key: modules-${{ hashFiles('package-lock.json') }}
+      - name: Cache Playwright binaries
+        uses: actions/cache@v3
+        id: cache-playwright
+        with:
+          path: |
+            ~/.cache/ms-playwright
+          key: playwright-${{ hashFiles('package-lock.json') }}
       - name: Install dependencies
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: npm ci --force
       - name: Install Playwright Browsers
+        if: steps.cache-playwright.outputs.cache-hit != 'true'
         run: npx playwright install --with-deps
-      
+  test:
+    name: 🧪 Test (${{ matrix.shard }}/${{ matrix.shardTotal }})
+    needs: install
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [1, 2]
+        shardTotal: [2]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+      - name: Cache node_modules
+        uses: actions/cache@v3
+        with:
+          path: |
+            node_modules
+          key: modules-${{ hashFiles('package-lock.json') }}
+      - name: Cache Playwright
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.cache/ms-playwright
+          key: playwright-${{ hashFiles('package-lock.json') }}
       - name: Run Playwright tests
-        run: npx playwright test
+        run: npx playwright test --shard=${{ matrix.shard }}/${{ matrix.shardTotal }}
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact

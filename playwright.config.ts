@@ -44,7 +44,7 @@ const config: PlaywrightTestConfig = {
     ['monocart-reporter', {  
         name: 'My Test Report',
         outputFile: './test-results/index.html',
-        trend: './test-results/report.json'
+        trend: './test-results/result.json'
     }]
   ],
 
@@ -80,8 +80,17 @@ const config: PlaywrightTestConfig = {
         screenshot: 'only-on-failure',
         ...devices['Desktop Chrome']
       }
-      
-       
+    },
+    {
+      name: 'ExecuteInFF',
+      testDir: './tests/',
+      dependencies: ['setup'],
+      use: {
+        headless: true,
+        video: 'on',
+        screenshot: 'only-on-failure',
+        ...devices['Desktop Firefox']
+      }
     }
     // {
     //   name: 'stagingEnvironment',
