@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "executeE2eTests": "playwright test --config=playwright.config.ts --project=ExecuteInChrome "
+    "executeE2eTests": "playwright test --config=playwright.config.ts --project=ExecuteInChrome ",
+    "merge:report:monocart": "tsx merge-monocart-reports.ts"
   },
   "keywords": [],
   "author": "",
