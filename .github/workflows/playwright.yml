@@ -139,7 +139,6 @@ jobs:
       - name: Move to Reports folder
         id: move-to-reports-folder
         run: |
-          mv merged-html-report reports/playwright
           mv merged-monocart-report reports/monocart
         shell: bash
 
