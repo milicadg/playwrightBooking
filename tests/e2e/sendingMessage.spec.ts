@@ -1,16 +1,16 @@
 import { test, expect } from '@playwright/test';
-import faker, { } from 'faker';
+import { faker} from '@faker-js/faker';
 import { HomePage } from '../../pages/HomePage';
 import { SendingMessagePage } from '../../pages/SendingMessagePage';
 
 test.describe('Sending message', async () => {
     let homePage: HomePage;
     let sendMessagePage: SendingMessagePage;
-    const firstName = faker.name.firstName('female');
-    const lastName = faker.name.lastName('female');
+    const firstName = faker.person.firstName('female');
+    const lastName = faker.person.lastName('female');
     const contactName = firstName + ' ' + lastName;
-    const email = faker.internet.exampleEmail(firstName, lastName);
-    const phone = faker.phone.phoneNumber();
+    const email = faker.internet.exampleEmail({firstName, lastName});
+    const phone = faker.phone.number(); 
     const msubject = 'Some subject string ' + firstName;
     const description = 'Some description for sending message';
     const path = '/message';
@@ -24,7 +24,6 @@ test.describe('Sending message', async () => {
     });
 
     test('Send message', async ({request }) => {
-
         const message: [string, string, string, string,string] = [contactName, phone, email, msubject, description];
         await sendMessagePage.sendMessage(message);
         await expect(sendMessagePage.thanksMessage).toHaveText('Thanks for getting in touch ' + contactName +'!');
@@ -32,12 +31,11 @@ test.describe('Sending message', async () => {
         await expect(sendMessagePage.sentSubject).toHaveText(msubject);
         await expect(sendMessagePage.asSoonMessage).toHaveText('as soon as possible.');
         
-
         let response = await request.get(`${path}/`, {});
         expect(response.status()).toBe(200);
         let responseJSON = JSON.parse(await response.text());
         let numberOfMessages = 0;
-        for (let index in responseJSON.messages) {
+        for (const index in responseJSON.messages) {
             numberOfMessages++;
         }
         const messageId = await (responseJSON.messages[numberOfMessages-1]).id;

@@ -10,23 +10,18 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.22.5",
-    "@babel/eslint-parser": "^7.22.5",
+    "@faker-js/faker": "^8.0.2",
     "@playwright/test": "^1.35.1",
-    "@types/faker": "^6.6.9",
     "@types/jquery": "^3.5.16",
     "@typescript-eslint/eslint-plugin": "^5.60.0",
-    "@typescript-eslint/parser": "^5.60.0",
-    "babel-eslint": "^10.1.0",
+    "@typescript-eslint/parser": "^5.61.0",
     "eslint": "^8.43.0",
-    "eslint-config-standard-with-typescript": "^35.0.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^16.0.0",
-    "eslint-plugin-playwright": "^0.15.0",
-    "eslint-plugin-promise": "^6.1.1",
-    "experimental-allure-playwright": "^0.0.3",
-    "faker": "^5.5.3",
+    "eslint-plugin-playwright": "^0.15.3",
     "monocart-reporter": "^1.6.13",
     "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "playwright-merge-html-reports": "^0.2.8"
   }
 }

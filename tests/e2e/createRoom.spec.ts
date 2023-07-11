@@ -1,10 +1,10 @@
 import { test, expect } from '@playwright/test';
-import faker, { } from 'faker';
+import { faker } from '@faker-js/faker';
 import { BookingManagementPage } from '../../pages/BookingManagementPage';
 
 test.describe('Create room page', async () => {
     let bookingManagementPage: BookingManagementPage;
-    const roomName = faker.datatype.number(300).toLocaleString();
+    const roomName = faker.number.int({ min: 100, max: 999 }).toString();
     const roomType = 'Twin';
     let roomAccessible = false;
     const roomPrice = '300';

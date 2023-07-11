@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test'; 
-import faker, { } from 'faker';
+import { faker } from '@faker-js/faker';
 import { BookingManagementPage } from '../../pages/BookingManagementPage';
 import { RoomPage } from '../../pages/RoomPage';
 import { EditRoomPage } from '../../pages/EditRoomPage';
@@ -10,7 +10,7 @@ test.describe('Update room E2E', async () => {
   let bookingManagementPage: BookingManagementPage;
   let roomPage: RoomPage;
   let editRoomPage: EditRoomPage;
-  const roomName = faker.datatype.number(300).toLocaleString();
+  const roomName = faker.number.int.toString(); //  number(300).int.toLocaleString();
   let roomType = 'Twin';
   let roomPrice = '300';
   let roomAccessible = true;
@@ -50,12 +50,12 @@ test.describe('Update room E2E', async () => {
     //Edit room values
     editRoomPage = new EditRoomPage(page, roomName);
     
-    const editRoomNameValue = faker.datatype.number(300).toLocaleString();
+    const editRoomNameValue = faker.number.int({ min: 100, max: 999 }).toString();
     roomType = 'Double';
     roomPrice = '300';
     roomAccessible = true;
     const image = 'https://images.pexels.com/photos/11857305/pexels-photo-11857305.jpeg';
-    const description = faker.lorem.text(130);
+    const description = faker.lorem.text();
 
     const hasFeatures: [boolean, boolean, boolean, boolean, boolean, boolean] = [true, false, false, true, true, true];
     await editRoomPage.editRoom(editRoomNameValue, roomType, roomAccessible, roomPrice, hasFeatures, image, description);

@@ -1,18 +1,17 @@
-import faker, { } from 'faker';
+import { faker } from '@faker-js/faker';
 
 import { test, expect } from '@playwright/test';
 import { HomePage } from '../../pages/HomePage';
 
 test.describe('Manipulate with booking', async () => {
   
-  const roomName = faker.datatype.number(300).toLocaleString();
+  const roomName: string = faker.number.int({ min: 100, max: 999 }).toString();
   const roomType = 'Twin';
   const roomPrice = '300';
   const roomAccessible = true;
   let homePage: HomePage;
   
   test('Testing crete booking with particular room type', async ({ request, page } ) => {
-   
     const path = '/room';
     const response = await request.post(`${path}/`, {
       data: {
