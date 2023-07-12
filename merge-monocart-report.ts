@@ -12,7 +12,7 @@ merge(reportDataList, {
     outputFile: 'test-results/index.html',
     trend: 'test-results/result.json',
     attachmentPath: (currentPath: string) => {
-        const searchStr = '../test-results/';
+        const searchStr = './test-results/';
         const replaceStr = './data/';
 
         if (currentPath.startsWith(searchStr)) {

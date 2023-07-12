@@ -2,20 +2,20 @@
   "cookies": [
     {
       "name": "_ga",
-      "value": "GA1.2.459289570.1689152892",
+      "value": "GA1.2.198162708.1689160616",
       "domain": ".automationintesting.online",
       "path": "/",
-      "expires": 1723712892.060204,
+      "expires": 1723720615.808725,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_gid",
-      "value": "GA1.2.1035506238.1689152892",
+      "value": "GA1.2.1063699374.1689160616",
       "domain": ".automationintesting.online",
       "path": "/",
-      "expires": 1689239292,
+      "expires": 1689247015,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -25,14 +25,14 @@
       "value": "1",
       "domain": ".automationintesting.online",
       "path": "/",
-      "expires": 1689152952,
+      "expires": 1689160675,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "token",
-      "value": "oqIx7QmQNsVt0Zyk",
+      "value": "kFmLU334tpTMtRrV",
       "domain": "automationintesting.online",
       "path": "/",
       "expires": -1,
