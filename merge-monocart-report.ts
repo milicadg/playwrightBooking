@@ -9,10 +9,10 @@ const reportDataList = [
 
 merge(reportDataList, {
     name: 'Merged monocart report',
-    outputFile: 'test-results/index.html',
-    trend: 'test-results/result.json',
+    outputFile: 'monocart-reports/index.html',
+    trend: 'monocart-reports/result.json',
     attachmentPath: (currentPath: string) => {
-        const searchStr = './test-results/';
+        const searchStr = './monocart-reports/';
         const replaceStr = './data/';
 
         if (currentPath.startsWith(searchStr)) {
