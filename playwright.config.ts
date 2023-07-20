@@ -80,7 +80,8 @@ const config: PlaywrightTestConfig = {
         screenshot: 'only-on-failure',
         ...devices['Desktop Chrome']
       }
-    },
+     }
+     ,
     {
       name: 'ExecuteInFF',
       testDir: './tests/',
@@ -92,15 +93,6 @@ const config: PlaywrightTestConfig = {
         ...devices['Desktop Firefox']
       }
     }
-    // {
-    //   name: 'stagingEnvironment',
-    //   use: {
-    //     headless:false,
-    //     video: 'on',
-    //     screenshot: 'only-on-failure',
-    //     ...devices['Desktop Firefox'],
-    //   },
-    // },
   ]
   /* Folder for test artifacts such as screenshots, videos, traces, etc. */
   // outputDir: 'test-results/',
