@@ -139,7 +139,7 @@ jobs:
       - name: Move to Reports folder
         id: move-to-reports-folder
         run: |
-          mv merged-monocart-report test-results
+          mv merge-monocart-report test-results
         shell: bash
       - name: Setup Pages
         id: setup-pages
