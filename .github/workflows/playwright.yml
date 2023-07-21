@@ -139,7 +139,7 @@ jobs:
       - name: Move to Reports folder
         id: move-to-reports-folder
         run: |
-          mv test-results monocart-reports
+          mv monocart-reports test-results
         shell: bash
       - name: Setup Pages
         id: setup-pages
@@ -148,7 +148,7 @@ jobs:
         id: upload-pages-artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: test-results/
+          path: monocart-reports/
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
