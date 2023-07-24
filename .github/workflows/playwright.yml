@@ -136,11 +136,11 @@ jobs:
           npm run merge:report:monocart
           chmod +x ./merge-test-reports.sh
           ./merge-test-reports.sh
-      - name: Move to Reports folder
-        id: move-to-reports-folder
-        run: |
-          mv test-results monocart-reports
-        shell: bash
+      # - name: Move to Reports folder
+      #   id: move-to-reports-folder
+      #   run: |
+      #     mv test-results monocart-reports
+      #   shell: bash
       - name: Setup Pages
         id: setup-pages
         uses: actions/configure-pages@v3
