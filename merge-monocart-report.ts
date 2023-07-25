@@ -1,10 +1,12 @@
 import { merge } from 'monocart-reporter';
 
 const reportDataList = [
-    process.cwd() + '/playwright-report-ExecuteInChrome-1_2/index.json',
-    process.cwd() + '/playwright-report-ExecuteInChrome-2_2/index.json',
-    process.cwd() + '/playwright-report-ExecuteInFF-1_2/index.json',
-    process.cwd() + '/playwright-report-ExecuteInFF-2_2/index.json'
+    process.cwd() + '/monocart-report-ExecuteInChrome-1_2/index.json',
+    process.cwd() + '/monocart-report-ExecuteInChrome-2_2/index.json',
+    process.cwd() + '/monocart-report-ExecuteInFF-1_2/index.json',
+    process.cwd() + '/monocart-report-ExecuteInFF-2_2/index.json',
+    process.cwd() + '/monocart-report-ExecuteInSafari-1_2/index.json',
+    process.cwd() + '/monocart-report-ExecuteInSafari-2_2/index.json'
 ];
 
 merge(reportDataList, {
