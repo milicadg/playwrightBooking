@@ -132,7 +132,7 @@ jobs:
       - name: Merge Playwright Monocart Reports
         id: merge-playwright-monocart-reports
         run: |
-          curl -o result.json https://milicadg.github.io/playwrightBooking/test-results/index.json
+          curl -o result.json https://milicadg.github.io/playwrightBooking/monocart/index.json
           npm run merge:report:monocart
           chmod +x ./merge-test-reports.sh
           ./merge-test-reports.sh
