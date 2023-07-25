@@ -131,7 +131,7 @@ jobs:
       - name: Move to Reports folder
         id: move-to-reports-folder
         run: |
-          mv merged-monocart-report playwright-monocart-reports/monocart
+          mv merged-monocart-report playwright-monocart-report
         shell: bash
       - name: Setup Pages
         id: setup-pages
