@@ -92,6 +92,17 @@ const config: PlaywrightTestConfig = {
         screenshot: 'only-on-failure',
         ...devices['Desktop Firefox']
       }
+    },
+    {
+      name: 'ExecuteInSafari',
+      testDir: './tests/',
+      dependencies: ['setup'],
+      use: {
+        headless: true,
+        video: 'on',
+        screenshot: 'only-on-failure',
+        ...devices['Desktop Safari']
+      }
     }
   ]
   /* Folder for test artifacts such as screenshots, videos, traces, etc. */
