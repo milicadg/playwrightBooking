@@ -75,7 +75,7 @@ const config: PlaywrightTestConfig = {
       testDir: './tests/',
       dependencies: ['setup'],
       use: {
-        headless:true,
+        headless:false,
         video: 'on',
         screenshot: 'only-on-failure',
         ...devices['Desktop Chrome']
@@ -87,7 +87,7 @@ const config: PlaywrightTestConfig = {
       testDir: './tests/',
       dependencies: ['setup'],
       use: {
-        headless: true,
+        headless: false,
         video: 'on',
         screenshot: 'only-on-failure',
         ...devices['Desktop Firefox']
