@@ -9,7 +9,7 @@ const reportDataList  = [
     process.cwd() + '/monocart-report-ExecuteInSafari-2_2/index.json'
 ];
 
-await merge(reportDataList, {
+merge(reportDataList, {
     name: 'Merged monocart report',
     outputFile: 'playwright-monocart-report/index.html',
     trend: 'previous-trend.json',
