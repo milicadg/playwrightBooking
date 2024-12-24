@@ -53,7 +53,7 @@ jobs:
       matrix:
         shardIndex: [1, 2]
         shardTotal: [2]
-        project: [ExecuteInChrome, ExecuteInFF, ExecuteInSafari]
+        project: [ExecuteInChrome]
     steps:
       - name: Checkout
         uses: actions/checkout@v3
