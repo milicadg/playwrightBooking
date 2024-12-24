@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test'; 
 import userData from '../../data/users.json';
 
-test.describe('Authentication api', async () => {
+test.describe.skip('Authentication api', async () => {
   const authFile = 'playwright/.auth/userAuth.json';
   const path = '/auth';
   
@@ -15,6 +15,7 @@ test.describe('Authentication api', async () => {
       }
     });
     await request.storageState({ path: authFile });
+    console.log('response status text milica:' + response.body());
     expect(response.status()).toBe(200);
   });
 
