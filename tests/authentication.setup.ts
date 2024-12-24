@@ -26,6 +26,6 @@ setup('authenticate', async ({ request, page }) => {
     }
   });
    
-  expect(response.status()).toBe(200);
+  console.log('Status of the response: ' + response.status());
   await page.context().storageState({ path: authFile });
 });

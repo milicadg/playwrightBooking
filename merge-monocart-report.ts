@@ -14,10 +14,8 @@ merge(reportDataList, {
     outputFile: 'playwright-monocart-report/index.html',
     trend: 'previous-trend.json',
     attachmentPath: (currentPath: string) => {
-        console.log('monocart-reporter');
         const searchStr = '../test-results/';
         const replaceStr = './data/';
-
         if (currentPath.startsWith(searchStr)) {
             return replaceStr + currentPath.slice(searchStr.length);
         }

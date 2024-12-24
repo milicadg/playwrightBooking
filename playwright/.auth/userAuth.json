@@ -1,38 +1,18 @@
 {
   "cookies": [
     {
-      "name": "_ga",
-      "value": "GA1.2.1437409501.1690441232",
-      "domain": ".automationintesting.online",
+      "name": "__cf_bm",
+      "value": "K2fywxXDyU4I7X7GiyAwbDUSIYbybKZ.Yj7uVVy2.7o-1735040614-1.0.1.1-bTs_bs.5t8TbIqAQGQ1smvPJve88Jo_ZDPrcSNqOqlrymOsyT2RIiY9eCKylpS0PmwA4hlGb8a4gWuW0EtIAsA",
+      "domain": ".blog.postman.com",
       "path": "/",
-      "expires": 1725001231.977946,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "_gid",
-      "value": "GA1.2.1628296734.1690441232",
-      "domain": ".automationintesting.online",
-      "path": "/",
-      "expires": 1690527631,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "_gat",
-      "value": "1",
-      "domain": ".automationintesting.online",
-      "path": "/",
-      "expires": 1690441291,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
+      "expires": 1735042414.022172,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
     },
     {
       "name": "token",
-      "value": "ozzn9fJS7ePChcWb",
+      "value": "eSiIudULxd233TDY",
       "domain": "automationintesting.online",
       "path": "/",
       "expires": -1,
