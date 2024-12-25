@@ -83,29 +83,28 @@ const config: PlaywrightTestConfig = {
         ...devices['Desktop Chrome']
       }
      },
-    // ,
-    // {
-    //   name: 'ExecuteInFF',
-    //   testDir: './tests/',
-    //   dependencies: ['setup'],
-    //   use: {
-    //     headless: true,
-    //     video: 'on',
-    //     screenshot: 'only-on-failure',
-    //     ...devices['Desktop Firefox']
-    //   }
-    // },
-    // {
-    //   name: 'ExecuteInSafari',
-    //   testDir: './tests/',
-    //   dependencies: ['setup'],
-    //   use: {
-    //     headless: true,
-    //     video: 'on',
-    //     screenshot: 'only-on-failure',
-    //     ...devices['Desktop Safari']
-    //   }
-    // }
+    {
+      name: 'ExecuteInFF',
+      testDir: './tests/',
+      dependencies: ['setup'],
+      use: {
+        headless: true,
+        video: 'on',
+        screenshot: 'only-on-failure',
+        ...devices['Desktop Firefox']
+      }
+    },
+    {
+      name: 'ExecuteInSafari',
+      testDir: './tests/',
+      dependencies: ['setup'],
+      use: {
+        headless: true,
+        video: 'on',
+        screenshot: 'only-on-failure',
+        ...devices['Desktop Safari']
+      }
+    }
   ]
   /* Run your local dev server before starting the tests */
   // webServer: {
