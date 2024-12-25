@@ -12,7 +12,7 @@ const reportDataList  = [
 merge(reportDataList, {
     name: 'Merged monocart report',
     outputFile: 'playwright-monocart-report/index.html',
-    trend: 'result.json',
+    trend: 'playwright-monocart-report/index.json',
     attachmentPath: (currentPath: string) => {
         const searchStr = '../test-results/';
         const replaceStr = './data/';

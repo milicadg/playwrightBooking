@@ -43,8 +43,8 @@ const config: PlaywrightTestConfig = {
   reporter: [
     ['monocart-reporter', {  
         name: 'My Test Report',
-        outputFile: './playwright-monocart-report/index.html'
-        //trend: './test-results/result.json'
+        outputFile: './playwright-monocart-report/index.html',
+        trend: './playwright-monocart-report/index.json'
     }],
     ['list']
   ],
@@ -82,7 +82,7 @@ const config: PlaywrightTestConfig = {
         screenshot: 'only-on-failure',
         ...devices['Desktop Chrome']
       }
-     }
+     },
     // ,
     // {
     //   name: 'ExecuteInFF',
@@ -107,9 +107,6 @@ const config: PlaywrightTestConfig = {
     //   }
     // }
   ]
-  /* Folder for test artifacts such as screenshots, videos, traces, etc. */
-  // outputDir: 'test-results/',
-
   /* Run your local dev server before starting the tests */
   // webServer: {
   //   command: 'npm run start',
