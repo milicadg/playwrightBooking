@@ -124,13 +124,17 @@ jobs:
       - name: Download Artifacts
         id: download-artifacts
         uses: actions/download-artifact@v4
+        with:
+            path: merged-monocart-report/data
+            pattern: test-results-*
+            merge-multiple: true
       - name: Merge Playwright Monocart Reports
         id: merge-playwright-monocart-reports
         run: |
           curl -o result.json https://milicadg.github.io/playwrightBooking/playwright-monocart-report/index.json
           npm run merge:report:monocart
-          chmod +x ./merge-test-reports.sh
-          ./merge-test-reports.sh
+          # chmod +x ./merge-test-reports.sh
+          # ./merge-test-reports.sh
       - name: Move to Reports folder
         id: move-to-reports-folder
         run: |
@@ -155,5 +159,3 @@ jobs:
             test-results-*
             monocart-report-*
           failOnError: false
-
-  
