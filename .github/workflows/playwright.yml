@@ -156,6 +156,6 @@ jobs:
         uses: geekyeggo/delete-artifact@v5
         with:
           name: |
-            test-results-*
+            # test-results-*
             monocart-report-*
           failOnError: false
