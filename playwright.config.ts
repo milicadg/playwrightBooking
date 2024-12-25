@@ -43,8 +43,8 @@ const config: PlaywrightTestConfig = {
   reporter: [
     ['monocart-reporter', {  
         name: 'My Test Report',
-        outputFile: './playwright-monocart-report/index.html',
-        trend: './playwright-monocart-report/index.json'
+        outputFile: './playwright-monocart-report/index.html'
+        // trend: './playwright-monocart-report/index.json'
     }],
     ['list']
   ],
