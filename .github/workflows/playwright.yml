@@ -6,6 +6,8 @@ on:
     branches: [ main, master ]
   # Allows to run this workflow manually from the Actions tab 
   workflow_dispatch:
+  schedule: 
+    - cron: '0 19 * * 1'
 # Sets permissions of the GITHUB_TOKEN to allow deplooyment to GitHub pages
 permissions:
   contents: read
@@ -18,20 +20,20 @@ jobs:
     name: install
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Use Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 18.x
+          node-version: 22.x
       - name: Cache node_modules
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         id: cache-node-modules
         with:
           path: |
             node_modules
           key: modules-${{ hashFiles('package-lock.json') }}
       - name: Cache Playwright binaries
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         id: cache-playwright
         with:
           path: |
@@ -56,19 +58,19 @@ jobs:
         project: [ExecuteInChrome]
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Use Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 18.x
+          node-version: 22.x
       - name: Cache node_modules
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: |
             node_modules
           key: modules-${{ hashFiles('package-lock.json') }}
       - name: Cache Playwright
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: |
             ~/.cache/ms-playwright
@@ -76,9 +78,9 @@ jobs:
       - name: Run Playwright tests
         run: npx playwright test --project=${{ matrix.project }} --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }}
       - name: Setup Pages
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v4
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always()
         with:
           name: monocart-report-${{ matrix.project }}-${{ matrix.shardIndex }}_${{ matrix.shardTotal }}
@@ -92,35 +94,36 @@ jobs:
     needs: [test]
     timeout-minutes: 30
     permissions:
+      actions: write
       contents: read
       pages: write
       id-token: write
     steps:
       - name: Checkout Repository
         id: checkout-repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup Node
         id: setup-node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
       - name: Cache Node Modules
         id: cache-node-modules
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: |
             node_modules
           key: modules-${{ hashFiles('package-lock.json') }}
       - name: Cache Playwright Binaries
         id: cache-playwright
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: |
             ~/.cache/ms-playwright
           key: playwright-${{ hashFiles('package-lock.json') }}
       - name: Download Artifacts
         id: download-artifacts
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
       - name: Merge Playwright Monocart Reports
         id: merge-playwright-monocart-reports
         run: |
@@ -135,18 +138,18 @@ jobs:
         shell: bash
       - name: Setup Pages
         id: setup-pages
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v5
       - name: Upload Pages Artifact
         id: upload-pages-artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: test-results/
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
       - name: Delete Unnecessary Artifacts
         id: delete-unnecessary-artifacts
-        uses: geekyeggo/delete-artifact@v2
+        uses: geekyeggo/delete-artifact@v5
         with:
           name: |
             test-results-*
