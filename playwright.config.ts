@@ -45,7 +45,8 @@ const config: PlaywrightTestConfig = {
         name: 'My Test Report',
         outputFile: './playwright-monocart-report/index.html'
         //trend: './test-results/result.json'
-    }]
+    }],
+    ['list']
   ],
   outputDir: 'test-results',
 

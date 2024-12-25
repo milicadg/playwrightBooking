@@ -11,7 +11,7 @@ test.describe('Sending message', async () => {
     const contactName = firstName + ' ' + lastName;
     const email = faker.internet.exampleEmail({firstName, lastName});
     const phone = faker.phone.number(); 
-    const msubject = 'Some subject string ' + firstName;
+    const msubject = 'You have a new booking!';
     const description = 'Some description for sending message';
     const path = '/message';
     
