@@ -46,7 +46,8 @@ const config: PlaywrightTestConfig = {
         outputFile: './playwright-monocart-report/index.html'
         // trend: './playwright-monocart-report/index.json'
     }],
-    ['list']
+    ['list'],
+    ['html', { open: 'never' }]
   ],
   outputDir: 'test-results',
 
