@@ -125,7 +125,7 @@ jobs:
         id: download-artifacts
         uses: actions/download-artifact@v4
         with:
-            path: merged-monocart-report/data
+            path: playwright-monocart-report/data
             pattern: test-results-*
             merge-multiple: true
       - name: Merge Playwright Monocart Reports
@@ -138,7 +138,7 @@ jobs:
       - name: Move to Reports folder
         id: move-to-reports-folder
         run: |
-          mv merged-monocart-report playwright-monocart-report
+          mv playwright-monocart-report playwright-monocart-report
         shell: bash
       - name: Setup Pages
         id: setup-pages
