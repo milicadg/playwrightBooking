@@ -5,7 +5,7 @@ const reportDataList  = [
     process.cwd() + '/playwright-monocart-report-ExecuteInChrome-2_2/index.json',
     process.cwd() + '/playwright-monocart-report-ExecuteInFF-1_2/index.json',
     process.cwd() + '/playwright-monocart-report-ExecuteInFF-2_2/index.json',
-    process.cwd() + '/playwright-onocart-report-ExecuteInSafari-1_2/index.json',
+    process.cwd() + '/playwright-monocart-report-ExecuteInSafari-1_2/index.json',
     process.cwd() + '/playwright-monocart-report-ExecuteInSafari-2_2/index.json'
 ];
 
