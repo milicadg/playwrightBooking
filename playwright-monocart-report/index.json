@@ -1,10 +1,10 @@
 {
     "name": "My Test Report",
     "logo": null,
-    "date": 1735211825497,
-    "dateH": "12/26/2024, 12:17:05 PM",
-    "duration": 23177,
-    "durationH": "23.2s",
+    "date": 1735212941615,
+    "dateH": "12/26/2024, 12:35:41 PM",
+    "duration": 23148,
+    "durationH": "23.1s",
     "cwd": "/Users/m.drobacgrujicic/playwrightBooking",
     "outputFile": "/Users/m.drobacgrujicic/playwrightBooking/playwright-monocart-report/index.html",
     "outputDir": "/Users/m.drobacgrujicic/playwrightBooking/playwright-monocart-report",
@@ -32,120 +32,120 @@
         "release": "24.2.0",
         "type": "Darwin",
         "version": "Darwin Kernel Version 24.2.0: Fri Dec  6 18:41:43 PST 2024; root:xnu-11215.61.5~2/RELEASE_X86_64",
-        "uptime": 85423,
+        "uptime": 86539,
         "hostname": "mdrobacgrujicic",
-        "pid": 65124,
+        "pid": 66368,
         "node": "22.12.0",
         "v8": "12.4.254.21-node.21",
-        "timestampStart": 1735211825497,
+        "timestampStart": 1735212941615,
         "ticks": [
             {
                 "cpu": {
-                    "percent": 19.08
+                    "percent": 19.57
                 },
                 "mem": {
-                    "free": 32444416
+                    "free": 1328226304
                 },
-                "timestamp": 1735211827499
+                "timestamp": 1735212943617
             },
             {
                 "cpu": {
-                    "percent": 9.3
+                    "percent": 5.51
                 },
                 "mem": {
-                    "free": 19165184
+                    "free": 1287462912
                 },
-                "timestamp": 1735211829501
+                "timestamp": 1735212945617
             },
             {
                 "cpu": {
-                    "percent": 7.97
+                    "percent": 16.53
                 },
                 "mem": {
-                    "free": 71110656
+                    "free": 1359314944
                 },
-                "timestamp": 1735211831554
+                "timestamp": 1735212947619
             },
             {
                 "cpu": {
-                    "percent": 66.81
+                    "percent": 81.42
                 },
                 "mem": {
-                    "free": 19894272
+                    "free": 447012864
                 },
-                "timestamp": 1735211833555
+                "timestamp": 1735212949621
             },
             {
                 "cpu": {
-                    "percent": 32.97
+                    "percent": 9.03
                 },
                 "mem": {
-                    "free": 32272384
+                    "free": 412016640
                 },
-                "timestamp": 1735211835556
+                "timestamp": 1735212951622
             },
             {
                 "cpu": {
-                    "percent": 32.5
+                    "percent": 38.65
                 },
                 "mem": {
-                    "free": 19378176
+                    "free": 87883776
                 },
-                "timestamp": 1735211837590
+                "timestamp": 1735212953637
             },
             {
                 "cpu": {
-                    "percent": 62.64
+                    "percent": 49.96
                 },
                 "mem": {
-                    "free": 18366464
+                    "free": 489816064
                 },
-                "timestamp": 1735211839591
+                "timestamp": 1735212955638
             },
             {
                 "cpu": {
-                    "percent": 40.13
+                    "percent": 12.54
                 },
                 "mem": {
-                    "free": 655556608
+                    "free": 830844928
                 },
-                "timestamp": 1735211841592
+                "timestamp": 1735212957639
             },
             {
                 "cpu": {
-                    "percent": 29.82
+                    "percent": 23.44
                 },
                 "mem": {
-                    "free": 1052086272
+                    "free": 1296015360
                 },
-                "timestamp": 1735211843593
+                "timestamp": 1735212959640
             },
             {
                 "cpu": {
-                    "percent": 12.65
+                    "percent": 5.26
                 },
                 "mem": {
-                    "free": 1147518976
+                    "free": 1296744448
                 },
-                "timestamp": 1735211845593
+                "timestamp": 1735212961639
             },
             {
                 "cpu": {
-                    "percent": 27.51
+                    "percent": 19.13
                 },
                 "mem": {
-                    "free": 1580834816
+                    "free": 1215696896
                 },
-                "timestamp": 1735211847593
+                "timestamp": 1735212963639
             },
             {
                 "cpu": {
-                    "percent": 8.47
+                    "percent": 9.23
                 },
                 "mem": {
-                    "free": 1825128448
+                    "free": 1654640640
                 },
-                "timestamp": 1735211848668
+                "timestamp": 1735212964757
             }
         ],
         "workers": 6,
@@ -154,71 +154,71 @@
                 "caseId": "81e62cffcbcd642d8120",
                 "parallelIndex": 0,
                 "workerIndex": 0,
-                "timestamp": 1735211826619,
-                "duration": 4946
+                "timestamp": 1735212942399,
+                "duration": 4941
             },
             {
                 "caseId": "cc1e5252aa3f3a280f25",
                 "parallelIndex": -1,
                 "workerIndex": -1,
-                "timestamp": 1735211831617,
-                "duration": 1
+                "timestamp": 1735212947398,
+                "duration": 0
             },
             {
                 "caseId": "db8d685c556cd91cb49d",
                 "parallelIndex": 1,
                 "workerIndex": 1,
-                "timestamp": 1735211832741,
-                "duration": 8449
+                "timestamp": 1735212948315,
+                "duration": 7157
             },
             {
                 "caseId": "f11314b35d3e00743524",
                 "parallelIndex": 2,
                 "workerIndex": 2,
-                "timestamp": 1735211832760,
-                "duration": 8069
+                "timestamp": 1735212948359,
+                "duration": 6372
             },
             {
                 "caseId": "baf0a6e1e53f2294e0f3",
                 "parallelIndex": 3,
                 "workerIndex": 3,
-                "timestamp": 1735211832767,
-                "duration": 8494
+                "timestamp": 1735212948321,
+                "duration": 6498
             },
             {
                 "caseId": "03983ad915ce470bf236",
                 "parallelIndex": 4,
                 "workerIndex": 4,
-                "timestamp": 1735211832789,
-                "duration": 10011
+                "timestamp": 1735212948309,
+                "duration": 10409
             },
             {
                 "caseId": "c271d027b1eb271b54ce",
                 "parallelIndex": 5,
                 "workerIndex": 5,
-                "timestamp": 1735211832819,
-                "duration": 8314
+                "timestamp": 1735212948380,
+                "duration": 6799
             },
             {
                 "caseId": "72fba6cc37e37bdcbc77",
                 "parallelIndex": 0,
                 "workerIndex": 6,
-                "timestamp": 1735211832744,
-                "duration": 8370
+                "timestamp": 1735212948312,
+                "duration": 6953
             },
             {
                 "caseId": "f263f418041ce49f8034",
                 "parallelIndex": 2,
                 "workerIndex": 2,
-                "timestamp": 1735211840836,
-                "duration": 3657
+                "timestamp": 1735212954759,
+                "duration": 2436
             },
             {
                 "caseId": "a8a38d4433a0d269c8b8",
-                "parallelIndex": 0,
-                "workerIndex": 6,
-                "timestamp": 1735211841126,
-                "duration": 6435
+                "parallelIndex": 3,
+                "workerIndex": 3,
+                "timestamp": 1735212954856,
+                "duration": 8816
             }
         ],
         "cwd": "/Users/m.drobacgrujicic/playwrightBooking",
@@ -228,7 +228,7 @@
         "testDir": "tests",
         "outputFile": "playwright-monocart-report/index.html",
         "outputDir": "playwright-monocart-report",
-        "timestampEnd": 1735211848674
+        "timestampEnd": 1735212964763
     },
     "artifacts": [],
     "trends": [],
@@ -367,10 +367,10 @@
                                 "Status of the response2: \n"
                             ],
                             "timestamps": [
-                                1735211826619,
-                                1735211831565
+                                1735212942399,
+                                1735212947340
                             ],
-                            "duration": 4946,
+                            "duration": 4941,
                             "tags": [],
                             "timeout": 90000,
                             "retry": 0,
@@ -380,51 +380,51 @@
                             "stepSubs": true,
                             "subs": [
                                 {
-                                    "id": "3gpsd0cb0ghf5srwgkxq",
+                                    "id": "5iqw3swf7zfijkghd970",
                                     "title": "Before Hooks",
                                     "type": "step",
                                     "stepType": "hook",
-                                    "duration": 671,
+                                    "duration": 379,
                                     "location": "",
                                     "subs": [
                                         {
-                                            "id": "pxg3k7qsxsrlh7zgzko5",
+                                            "id": "p1ib4sm5opv99j6ef0wo",
                                             "title": "fixture: request",
                                             "type": "step",
                                             "stepType": "fixture",
-                                            "duration": 36,
+                                            "duration": 34,
                                             "location": "",
                                             "subs": [
                                                 {
-                                                    "id": "nezhl5q2hdb4wi9muody",
+                                                    "id": "ur8a4ivfqc3fuwheu5z3",
                                                     "title": "apiRequest.newContext",
                                                     "type": "step",
                                                     "stepType": "pw:api",
-                                                    "duration": 32,
+                                                    "duration": 29,
                                                     "location": ""
                                                 }
                                             ]
                                         },
                                         {
-                                            "id": "059in3gngq2k0irg54qp",
+                                            "id": "3p7ipidwrz3vsqyev9bl",
                                             "title": "fixture: browser",
                                             "type": "step",
                                             "stepType": "fixture",
-                                            "duration": 398,
+                                            "duration": 176,
                                             "location": "",
                                             "subs": [
                                                 {
-                                                    "id": "3y66y7v9zsbe5fxsiaeu",
+                                                    "id": "7hjqfqcqztkol3zh0t80",
                                                     "title": "browserType.launch",
                                                     "type": "step",
                                                     "stepType": "pw:api",
-                                                    "duration": 396,
+                                                    "duration": 174,
                                                     "location": ""
                                                 }
                                             ]
                                         },
                                         {
-                                            "id": "axxxt6g6skzf6nbs9ra6",
+                                            "id": "pw3ezwn407d21lalt8cw",
                                             "title": "fixture: context",
                                             "type": "step",
                                             "stepType": "fixture",
@@ -432,29 +432,29 @@
                                             "location": "",
                                             "subs": [
                                                 {
-                                                    "id": "2080iwbynosonryr5dw0",
+                                                    "id": "rlgx0kh0sz20vb5261tl",
                                                     "title": "browser.newContext",
                                                     "type": "step",
                                                     "stepType": "pw:api",
-                                                    "duration": 18,
+                                                    "duration": 19,
                                                     "location": ""
                                                 }
                                             ]
                                         },
                                         {
-                                            "id": "ie0g7k23uyclkg2flcjl",
+                                            "id": "gismfwtxdwnnkuuvlihy",
                                             "title": "fixture: page",
                                             "type": "step",
                                             "stepType": "fixture",
-                                            "duration": 206,
+                                            "duration": 138,
                                             "location": "",
                                             "subs": [
                                                 {
-                                                    "id": "ajkpvdp5ew71a7yj6ffc",
+                                                    "id": "fjf2jxyeuvyfhx9x3vej",
                                                     "title": "browserContext.newPage",
                                                     "type": "step",
                                                     "stepType": "pw:api",
-                                                    "duration": 205,
+                                                    "duration": 137,
                                                     "location": ""
                                                 }
                                             ]
@@ -462,63 +462,63 @@
                                     ]
                                 },
                                 {
-                                    "id": "iolgekxd1b64m9cyaikk",
+                                    "id": "klngnc3ygcvdvaeditgv",
                                     "title": "browserContext.clearCookies",
                                     "type": "step",
                                     "stepType": "pw:api",
-                                    "duration": 3,
+                                    "duration": 2,
                                     "location": "tests/authentication.setup.ts:14:24"
                                 },
                                 {
-                                    "id": "wraf23a5e7zmqmyrkz35",
+                                    "id": "dail4234yrdn2pc0x4p2",
                                     "title": "page.goto(/)",
                                     "type": "step",
                                     "stepType": "pw:api",
-                                    "duration": 329,
+                                    "duration": 277,
                                     "location": "pages/BasePage.ts:11:25"
                                 },
                                 {
-                                    "id": "ulvyqlcwzvjzinnwtoxw",
+                                    "id": "rjdadlb99gcijqxsg454",
                                     "title": "locator.getByAltText('Link to admin page').waitFor",
                                     "type": "step",
                                     "stepType": "pw:api",
-                                    "duration": 820,
+                                    "duration": 815,
                                     "location": "pages/HomePage.ts:35:30"
                                 },
                                 {
-                                    "id": "zefxd1j4h14iy6cveq02",
+                                    "id": "x4rj9q6y3niolzt0dcrv",
                                     "title": "locator.getByAltText('Link to admin page').click",
                                     "type": "step",
                                     "stepType": "pw:api",
-                                    "duration": 104,
+                                    "duration": 80,
                                     "location": "pages/HomePage.ts:36:30"
                                 },
                                 {
-                                    "id": "t6mlyfkeexmoddtt4vds",
+                                    "id": "zcxpon22w1s5ssqd6gkk",
                                     "title": "locator.getByTestId('login-header').waitFor",
                                     "type": "step",
                                     "stepType": "pw:api",
-                                    "duration": 78,
+                                    "duration": 181,
                                     "location": "pages/AdminPage.ts:20:27"
                                 },
                                 {
-                                    "id": "loyb7hn67wnqpeaj21wn",
+                                    "id": "73yc8eaps4a8xpgznwhv",
                                     "title": "locator.getByTestId('username').fill",
                                     "type": "step",
                                     "stepType": "pw:api",
-                                    "duration": 8,
+                                    "duration": 9,
                                     "location": "pages/AdminPage.ts:21:36"
                                 },
                                 {
-                                    "id": "vnwt8tuwqk5af9ijhnua",
+                                    "id": "0rm7dpfjxekfe6eqiihs",
                                     "title": "locator.getByTestId('password').fill",
                                     "type": "step",
                                     "stepType": "pw:api",
-                                    "duration": 5,
+                                    "duration": 7,
                                     "location": "pages/AdminPage.ts:22:36"
                                 },
                                 {
-                                    "id": "rp9g7z1vryeugjbbk927",
+                                    "id": "qjhp4w8ttselzzc5n27a",
                                     "title": "locator.click(#doLogin)",
                                     "type": "step",
                                     "stepType": "pw:api",
@@ -526,15 +526,15 @@
                                     "location": "pages/AdminPage.ts:23:32"
                                 },
                                 {
-                                    "id": "a9rugq3kxz1mtagh29yo",
+                                    "id": "jbnt5telryl3r979itz0",
                                     "title": "apiRequestContext.post(/auth/login/)",
                                     "type": "step",
                                     "stepType": "pw:api",
-                                    "duration": 2785,
+                                    "duration": 3108,
                                     "location": "tests/authentication.setup.ts:22:28"
                                 },
                                 {
-                                    "id": "4i6wda0qydi5yting3z4",
+                                    "id": "nfchotfq3ia8p4umlvvz",
                                     "title": "browserContext.storageState",
                                     "type": "step",
                                     "stepType": "pw:api",
@@ -542,15 +542,15 @@
                                     "location": "tests/authentication.setup.ts:31:24"
                                 },
                                 {
-                                    "id": "jhupmn4tekvd0n8husmo",
+                                    "id": "z5c14euvh8fydpdankb2",
                                     "title": "After Hooks",
                                     "type": "step",
                                     "stepType": "hook",
-                                    "duration": 70,
+                                    "duration": 14,
                                     "location": "",
                                     "subs": [
                                         {
-                                            "id": "u92rd4n66x2hpm83413c",
+                                            "id": "o1flj7wvdffs883hiu7x",
                                             "title": "fixture: page",
                                             "type": "step",
                                             "stepType": "fixture",
@@ -558,7 +558,7 @@
                                             "location": ""
                                         },
                                         {
-                                            "id": "5zcgiszem9in216da9h6",
+                                            "id": "gqki3gfaajwafdvnaz0r",
                                             "title": "fixture: context",
                                             "type": "step",
                                             "stepType": "fixture",
@@ -566,7 +566,7 @@
                                             "location": ""
                                         },
                                         {
-                                            "id": "ds83vy84xpddliq9e2a2",
+                                            "id": "9f062ljh5m6yo7nfqvik",
                                             "title": "fixture: request",
                                             "type": "step",
                                             "stepType": "fixture",
@@ -574,11 +574,11 @@
                                             "location": "",
                                             "subs": [
                                                 {
-                                                    "id": "6kixkc6vd2lobfnbjc08",
+                                                    "id": "knra30kp00xmbrpa9yud",
                                                     "title": "apiRequestContext.dispose",
                                                     "type": "step",
                                                     "stepType": "pw:api",
-                                                    "duration": 1,
+                                                    "duration": 0,
                                                     "location": ""
                                                 }
                                             ]
@@ -623,10 +623,10 @@
                                     "expectedStatus": "skipped",
                                     "location": "tests/e2e/apiAuthentication.spec.ts:9:7",
                                     "timestamps": [
-                                        1735211831617,
-                                        1735211831618
+                                        1735212947398,
+                                        1735212947398
                                     ],
-                                    "duration": 1,
+                                    "duration": 0,
                                     "annotations": [
                                         {
                                             "type": "skip"
@@ -670,10 +670,10 @@
                                     "expectedStatus": "passed",
                                     "location": "tests/e2e/bookingRoom.spec.ts:26:7",
                                     "timestamps": [
-                                        1735211832741,
-                                        1735211841190
+                                        1735212948315,
+                                        1735212955472
                                     ],
-                                    "duration": 8449,
+                                    "duration": 7157,
                                     "tags": [],
                                     "timeout": 90000,
                                     "retry": 0,
@@ -683,15 +683,15 @@
                                     "stepSubs": true,
                                     "subs": [
                                         {
-                                            "id": "8hylvz3v46dwoyism00e",
+                                            "id": "dtsbwrfo353pmcrdauxe",
                                             "title": "Before Hooks",
                                             "type": "step",
                                             "stepType": "hook",
-                                            "duration": 981,
+                                            "duration": 963,
                                             "location": "",
                                             "subs": [
                                                 {
-                                                    "id": "box69tr4qntzt7yga86j",
+                                                    "id": "kudaa4a377bk4z3mw3xl",
                                                     "title": "fixture: request",
                                                     "type": "step",
                                                     "stepType": "fixture",
@@ -699,65 +699,65 @@
                                                     "location": "",
                                                     "subs": [
                                                         {
-                                                            "id": "hvas4fenfet6odjxhla5",
+                                                            "id": "eaay58l8fku3qux9q3v3",
                                                             "title": "apiRequest.newContext",
                                                             "type": "step",
                                                             "stepType": "pw:api",
-                                                            "duration": 4,
+                                                            "duration": 7,
                                                             "location": ""
                                                         }
                                                     ]
                                                 },
                                                 {
-                                                    "id": "8d80g1tjjw7txxz967it",
+                                                    "id": "a335lo6vj8cwyy4ehfsz",
                                                     "title": "fixture: browser",
                                                     "type": "step",
                                                     "stepType": "fixture",
-                                                    "duration": 377,
+                                                    "duration": 346,
                                                     "location": "",
                                                     "subs": [
                                                         {
-                                                            "id": "61hzxdg6uegu4bh6x47c",
+                                                            "id": "bppqidpavmkp02ch8pms",
                                                             "title": "browserType.launch",
                                                             "type": "step",
                                                             "stepType": "pw:api",
-                                                            "duration": 371,
+                                                            "duration": 341,
                                                             "location": ""
                                                         }
                                                     ]
                                                 },
                                                 {
-                                                    "id": "nvmxtyhn2n4v68tu5nqq",
+                                                    "id": "od0qyfn4403znv1s9nrw",
                                                     "title": "fixture: context",
                                                     "type": "step",
                                                     "stepType": "fixture",
-                                                    "duration": 165,
+                                                    "duration": 147,
                                                     "location": "",
                                                     "subs": [
                                                         {
-                                                            "id": "ymllmvurtj3gqde7pnsh",
+                                                            "id": "223e6gyqa5lcj0dclh4x",
                                                             "title": "browser.newContext",
                                                             "type": "step",
                                                             "stepType": "pw:api",
-                                                            "duration": 139,
+                                                            "duration": 8,
                                                             "location": ""
                                                         }
                                                     ]
                                                 },
                                                 {
-                                                    "id": "5mihcjhax7dfxh1mq79x",
+                                                    "id": "396b817nr5xc02wkweqp",
                                                     "title": "fixture: page",
                                                     "type": "step",
                                                     "stepType": "fixture",
-                                                    "duration": 403,
+                                                    "duration": 445,
                                                     "location": "",
                                                     "subs": [
                                                         {
-                                                            "id": "2ybvldlqr0upyqx06mhn",
+                                                            "id": "ie6qshti3j8pkpsc35bk",
                                                             "title": "browserContext.newPage",
                                                             "type": "step",
                                                             "stepType": "pw:api",
-                                                            "duration": 390,
+                                                            "duration": 440,
                                                             "location": ""
                                                         }
                                                     ]
@@ -765,119 +765,119 @@
                                             ]
                                         },
                                         {
-                                            "id": "4zi029rcrk8sgwp9i3jb",
+                                            "id": "gi1ynofieynz7j9v92y8",
                                             "title": "apiRequestContext.post(/room/)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 3299,
+                                            "duration": 3758,
                                             "location": "api/RoomApi.ts:23:44"
                                         },
                                         {
-                                            "id": "dgb0canmlw1nmhmm9sex",
+                                            "id": "law2lee470e7sretqcz0",
                                             "title": "expect.toBe",
                                             "type": "step",
                                             "stepType": "expect",
-                                            "duration": 0,
+                                            "duration": 1,
                                             "location": "tests/e2e/bookingRoom.spec.ts:29:39"
                                         },
                                         {
-                                            "id": "zrmeoxnwr0n8xejisfuv",
+                                            "id": "ge6h7980fmg18zzdn7zp",
                                             "title": "apiResponse.text",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 1,
+                                            "duration": 0,
                                             "location": "tests/e2e/bookingRoom.spec.ts:30:60"
                                         },
                                         {
-                                            "id": "lagsv6vmvqwm351wqzfn",
+                                            "id": "ibgyddgpqwyj24mhiqx7",
                                             "title": "page.goto(/)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 277,
+                                            "duration": 310,
                                             "location": "pages/BasePage.ts:11:25"
                                         },
                                         {
-                                            "id": "8zipr4l7qn6bbf5njzm4",
-                                            "title": "locator.click(//div[./div/img[contains(@alt,'422')]]//button >> nth=-1)",
+                                            "id": "ct6i1se2yhu7f8ecnata",
+                                            "title": "locator.click(//div[./div/img[contains(@alt,'950')]]//button >> nth=-1)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 1238,
+                                            "duration": 1102,
                                             "location": "pages/HomePage.ts:54:98"
                                         },
                                         {
-                                            "id": "ff73m60mn00wncsuxleh",
-                                            "title": "locator.type(input.room-firstname >> nth=-1, Johnson)",
+                                            "id": "mjag9jio3stacrw0n11y",
+                                            "title": "locator.type(input.room-firstname >> nth=-1, Shanny)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 80,
+                                            "duration": 86,
                                             "location": "pages/HomePage.ts:65:42"
                                         },
                                         {
-                                            "id": "vfq11qgfk9818a3h00cj",
-                                            "title": "locator.type(input.room-lastname >> nth=-1, Huels-Howe)",
+                                            "id": "1766u60eymb089r1dm37",
+                                            "title": "locator.type(input.room-lastname >> nth=-1, Cronin)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 211,
+                                            "duration": 71,
                                             "location": "pages/HomePage.ts:66:41"
                                         },
                                         {
-                                            "id": "68fybvarjyagqxdshh74",
-                                            "title": "locator.type(input.room-email >> nth=-1, Johnson_Huels-Howe@example.com)",
+                                            "id": "vbbngt4bgaj60ck7ezm2",
+                                            "title": "locator.type(input.room-email >> nth=-1, Shanny.Cronin@example.net)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 286,
+                                            "duration": 298,
                                             "location": "pages/HomePage.ts:67:38"
                                         },
                                         {
-                                            "id": "drp0q4pr685ou8z3q1fi",
-                                            "title": "locator.type(input.room-phone >> nth=-1, 1-726-493-7049 x688)",
+                                            "id": "hiliqqp6o70ejxf4qsju",
+                                            "title": "locator.type(input.room-phone >> nth=-1, 1-967-763-9231 x331)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 155,
+                                            "duration": 116,
                                             "location": "pages/HomePage.ts:68:44"
                                         },
                                         {
-                                            "id": "1v7hpqmilawxzl2vmuyx",
+                                            "id": "7lf0tq6kk7cedxcw9p8x",
                                             "title": "locator.getByRole('button', { name: 'Next' }).last().click",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 43,
+                                            "duration": 53,
                                             "location": "pages/HomePage.ts:44:46"
                                         },
                                         {
-                                            "id": "akw88irc9d6hgs3sdm4u",
+                                            "id": "rb15fi9l9ha6o360x4o9",
                                             "title": "locator.hover(.rbc-day-bg:not(.rbc-off-range-bg) >> nth=0)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 51,
+                                            "duration": 44,
                                             "location": "pages/HomePage.ts:47:36"
                                         },
                                         {
-                                            "id": "i6vqmwnz9fxuuas66ble",
+                                            "id": "gcrxm8cft10eyv1bmjk2",
                                             "title": "mouse.down",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 1,
+                                            "duration": 2,
                                             "location": "pages/HomePage.ts:48:31"
                                         },
                                         {
-                                            "id": "t3c02qp3dx02e5m1o7q1",
+                                            "id": "q4hou2lobocmmtovjf8v",
                                             "title": "locator.hover(.rbc-day-bg:not(.rbc-off-range-bg) >> nth=-1)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 48,
+                                            "duration": 47,
                                             "location": "pages/HomePage.ts:49:34"
                                         },
                                         {
-                                            "id": "wcv4g1lxb4rptvhp8d0q",
+                                            "id": "fjs9228xey9jiizx3z7p",
                                             "title": "mouse.up",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 4,
+                                            "duration": 3,
                                             "location": "pages/HomePage.ts:50:31"
                                         },
                                         {
-                                            "id": "hpwv0598f99lg4wf9ogm",
+                                            "id": "a46hzcsb0wl7dqo2tmde",
                                             "title": "locator.getByRole('button', { name: 'Book', exact: true }).last().click",
                                             "type": "step",
                                             "stepType": "pw:api",
@@ -885,7 +885,7 @@
                                             "location": "pages/HomePage.ts:61:38"
                                         },
                                         {
-                                            "id": "whuyhklho7ze4yibrobo",
+                                            "id": "i0mim5cty5pis1z4egwd",
                                             "title": "expect.toBeTruthy",
                                             "type": "step",
                                             "stepType": "expect",
@@ -893,15 +893,15 @@
                                             "location": "tests/e2e/bookingRoom.spec.ts:37:54"
                                         },
                                         {
-                                            "id": "zoqnq0hmsq2znvkjmxbf",
-                                            "title": "apiRequestContext.delete(/room/19)",
+                                            "id": "qc2ayy15xmlp0schedx9",
+                                            "title": "apiRequestContext.delete(/room/34)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 79,
+                                            "duration": 76,
                                             "location": "api/RoomApi.ts:38:47"
                                         },
                                         {
-                                            "id": "rtohi9dvbg3iqt1f101f",
+                                            "id": "zi3oe4ohrxdczjab5kpg",
                                             "title": "expect.toBe",
                                             "type": "step",
                                             "stepType": "expect",
@@ -909,23 +909,23 @@
                                             "location": "tests/e2e/bookingRoom.spec.ts:40:39"
                                         },
                                         {
-                                            "id": "xoj336nk4103ielfhqrx",
+                                            "id": "ypi2mt5z3d6kqwjtmv1g",
                                             "title": "After Hooks",
                                             "type": "step",
                                             "stepType": "hook",
-                                            "duration": 1591,
+                                            "duration": 122,
                                             "location": "",
                                             "subs": [
                                                 {
-                                                    "id": "xiuxoccwmlg0b778mfs5",
+                                                    "id": "e840c34dpmdcmdlgxv8a",
                                                     "title": "fixture: page",
                                                     "type": "step",
                                                     "stepType": "fixture",
-                                                    "duration": 0,
+                                                    "duration": 1,
                                                     "location": ""
                                                 },
                                                 {
-                                                    "id": "pmdygh6irxkit7k2ozmb",
+                                                    "id": "f9fwrt2pcsixio4rwipo",
                                                     "title": "fixture: context",
                                                     "type": "step",
                                                     "stepType": "fixture",
@@ -933,7 +933,7 @@
                                                     "location": ""
                                                 },
                                                 {
-                                                    "id": "rhuazerwt4wlmkmnpbau",
+                                                    "id": "fce4ribxq3loowqhcojb",
                                                     "title": "video.saveAs",
                                                     "type": "step",
                                                     "stepType": "pw:api",
@@ -941,7 +941,7 @@
                                                     "location": ""
                                                 },
                                                 {
-                                                    "id": "kz09gug6a5zydl2sfi4a",
+                                                    "id": "v3z8xektc4zk8y18t8qd",
                                                     "title": "attach \"video\"",
                                                     "type": "step",
                                                     "stepType": "attach",
@@ -949,15 +949,15 @@
                                                     "location": ""
                                                 },
                                                 {
-                                                    "id": "x7gndtsq21b6xerudhqz",
+                                                    "id": "bfphp07mr12sctrynfbl",
                                                     "title": "fixture: request",
                                                     "type": "step",
                                                     "stepType": "fixture",
-                                                    "duration": 2,
+                                                    "duration": 1,
                                                     "location": "",
                                                     "subs": [
                                                         {
-                                                            "id": "pt60apgxdqqlbug3hwxl",
+                                                            "id": "7n005ep3o8elptwkxnsl",
                                                             "title": "apiRequestContext.dispose",
                                                             "type": "step",
                                                             "stepType": "pw:api",
@@ -1008,10 +1008,10 @@
                                     "expectedStatus": "passed",
                                     "location": "tests/e2e/createRoom.spec.ts:17:9",
                                     "timestamps": [
-                                        1735211832760,
-                                        1735211840829
+                                        1735212948359,
+                                        1735212954731
                                     ],
-                                    "duration": 8069,
+                                    "duration": 6372,
                                     "tags": [],
                                     "timeout": 90000,
                                     "retry": 0,
@@ -1021,81 +1021,81 @@
                                     "stepSubs": true,
                                     "subs": [
                                         {
-                                            "id": "v73m8ali4nmwacy1xumu",
+                                            "id": "gw4nn0sjfzge4m2m2spm",
                                             "title": "Before Hooks",
                                             "type": "step",
                                             "stepType": "hook",
-                                            "duration": 984,
+                                            "duration": 861,
                                             "location": "",
                                             "subs": [
                                                 {
-                                                    "id": "adqfp4yesbyjz8ptdnjl",
+                                                    "id": "45bfxsmqp2iiru1evb4a",
                                                     "title": "beforeEach hook",
                                                     "type": "step",
                                                     "stepType": "hook",
-                                                    "duration": 982,
+                                                    "duration": 858,
                                                     "location": "tests/e2e/createRoom.spec.ts:12:9",
                                                     "subs": [
                                                         {
-                                                            "id": "tnw1rna6z2o0m3dskn80",
+                                                            "id": "00idhjbs064lngxlarir",
                                                             "title": "fixture: browser",
                                                             "type": "step",
                                                             "stepType": "fixture",
-                                                            "duration": 379,
+                                                            "duration": 305,
                                                             "location": "",
                                                             "subs": [
                                                                 {
-                                                                    "id": "x1syqkhc063182s4iz4l",
+                                                                    "id": "jxvauhpf9iph25coeosf",
                                                                     "title": "browserType.launch",
                                                                     "type": "step",
                                                                     "stepType": "pw:api",
-                                                                    "duration": 373,
+                                                                    "duration": 301,
                                                                     "location": ""
                                                                 }
                                                             ]
                                                         },
                                                         {
-                                                            "id": "o8caqnwqfxylfmmo6kt5",
+                                                            "id": "80bwh72fiksw48spinv4",
                                                             "title": "fixture: context",
                                                             "type": "step",
                                                             "stepType": "fixture",
-                                                            "duration": 168,
+                                                            "duration": 160,
                                                             "location": "",
                                                             "subs": [
                                                                 {
-                                                                    "id": "j259xfu0medeng2q7v7e",
+                                                                    "id": "uv7fhf1l3kg0256tj0hv",
                                                                     "title": "browser.newContext",
                                                                     "type": "step",
                                                                     "stepType": "pw:api",
-                                                                    "duration": 140,
+                                                                    "duration": 147,
                                                                     "location": ""
                                                                 }
                                                             ]
                                                         },
                                                         {
-                                                            "id": "1wbl5sduolo4ko0halzz",
+                                                            "id": "vsjlqpylhg65asifs94y",
                                                             "title": "fixture: page",
                                                             "type": "step",
                                                             "stepType": "fixture",
-                                                            "duration": 395,
+                                                            "duration": 364,
                                                             "location": "",
                                                             "subs": [
                                                                 {
-                                                                    "id": "lxuomfcpcmjk5kua00rt",
+                                                                    "id": "dk8f8sacgcb3qxch0i8g",
                                                                     "title": "browserContext.newPage",
                                                                     "type": "step",
                                                                     "stepType": "pw:api",
-                                                                    "duration": 388,
+                                                                    "duration": 321,
                                                                     "location": ""
                                                                 }
                                                             ]
                                                         },
                                                         {
-                                                            "id": "73gfugw0my441co1cwtx",
+                                                            "id": "el8l0sviilfq24vkh9n9",
                                                             "title": "page.goto(/#/admin/)",
                                                             "type": "step",
                                                             "stepType": "pw:api",
-                                                            "duration": 3700,
+                                                            "duration": 4196,
                                                             "location": "pages/BookingManagementPage.ts:133:25"
                                                         }
                                                     ]
@@ -1103,71 +1103,71 @@
                                             ]
                                         },
                                         {
-                                            "id": "99z5yabubyksz4sl35eo",
+                                            "id": "uksfby0gwi8uxf2afrb1",
                                             "title": "locator.getByTestId('roomName').fill",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 4503,
+                                            "duration": 4641,
                                             "location": "pages/BookingManagementPage.ts:120:29"
                                         },
                                         {
-                                            "id": "y7ghv9cs4x7vjk8fk5j0",
+                                            "id": "w9piziyflowumxsdrjgb",
                                             "title": "locator.selectOption(#type)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 30,
+                                            "duration": 11,
                                             "location": "pages/BookingManagementPage.ts:107:29"
                                         },
                                         {
-                                            "id": "73s87907w80ws8v0qbhn",
+                                            "id": "m8rj49nnqi98ksstobho",
                                             "title": "locator.selectOption(#accessible)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 41,
+                                            "duration": 6,
                                             "location": "pages/BookingManagementPage.ts:112:39"
                                         },
                                         {
-                                            "id": "e28dm64yq5813mru12cf",
+                                            "id": "e3fk40agtd581u91huw6",
                                             "title": "locator.fill(#roomPrice)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 12,
+                                            "duration": 8,
                                             "location": "pages/BookingManagementPage.ts:123:30"
                                         },
                                         {
-                                            "id": "6y03zezkx6uoek56k7ye",
+                                            "id": "gvuri0voe054gggke7fe",
                                             "title": "locator.check(#tvCheckbox)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 39,
+                                            "duration": 290,
                                             "location": "pages/BookingManagementPage.ts:78:27"
                                         },
                                         {
-                                            "id": "vjuvq8ldochnd9u2k2l5",
+                                            "id": "2h4sq7wbee5mhtg1vuzs",
                                             "title": "locator.check(#radioCheckbox)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 368,
+                                            "duration": 44,
                                             "location": "pages/BookingManagementPage.ts:84:30"
                                         },
                                         {
-                                            "id": "ej9xidmyy0z7um01mu9l",
+                                            "id": "6v091c3a0hw9tbb286yi",
                                             "title": "locator.click(#createRoom)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 42,
+                                            "duration": 67,
                                             "location": "pages/BookingManagementPage.ts:126:33"
                                         },
                                         {
-                                            "id": "flbvdxyx40cuiiv02q4l",
+                                            "id": "ur0yrhqnlm5x1wvtf7ub",
                                             "title": "expect.toHaveText",
                                             "type": "step",
                                             "stepType": "expect",
-                                            "duration": 383,
+                                            "duration": 165,
                                             "location": "tests/e2e/createRoom.spec.ts:22:61"
                                         },
                                         {
-                                            "id": "peffmhizhd4n8t4o0czp",
+                                            "id": "abrnarri93qklbk9wj08",
                                             "title": "expect.toHaveText",
                                             "type": "step",
                                             "stepType": "expect",
@@ -1175,39 +1175,39 @@
                                             "location": "tests/e2e/createRoom.spec.ts:23:61"
                                         },
                                         {
-                                            "id": "3vmk3wsxo8uw2rkw3mls",
+                                            "id": "018rnltowukcumtv6rq9",
                                             "title": "expect.toHaveText",
                                             "type": "step",
                                             "stepType": "expect",
-                                            "duration": 6,
+                                            "duration": 30,
                                             "location": "tests/e2e/createRoom.spec.ts:24:67"
                                         },
                                         {
-                                            "id": "3mbqbibltpjotxhfn66o",
+                                            "id": "as8la7n8mkcwgaeaz34a",
                                             "title": "expect.toHaveText",
                                             "type": "step",
                                             "stepType": "expect",
-                                            "duration": 4,
+                                            "duration": 22,
                                             "location": "tests/e2e/createRoom.spec.ts:25:62"
                                         },
                                         {
-                                            "id": "ys45qonbzinz12recu58",
+                                            "id": "03fu8ho0g6349a7853pr",
                                             "title": "expect.toHaveText",
                                             "type": "step",
                                             "stepType": "expect",
-                                            "duration": 4,
+                                            "duration": 7,
                                             "location": "tests/e2e/createRoom.spec.ts:26:64"
                                         },
                                         {
-                                            "id": "d733j3fb44ft9e8ywsq8",
+                                            "id": "bb093octk22rw2ro7slv",
                                             "title": "After Hooks",
                                             "type": "step",
                                             "stepType": "hook",
-                                            "duration": 1609,
+                                            "duration": 166,
                                             "location": "",
                                             "subs": [
                                                 {
-                                                    "id": "qk0k2luu9ccjlgpngkw7",
+                                                    "id": "u58bgareg3uurspznx7j",
                                                     "title": "fixture: page",
                                                     "type": "step",
                                                     "stepType": "fixture",
@@ -1215,23 +1215,23 @@
                                                     "location": ""
                                                 },
                                                 {
-                                                    "id": "0tpy3k2j8gowiutttokh",
+                                                    "id": "ebvt0ln5ydutk7b355wu",
                                                     "title": "fixture: context",
                                                     "type": "step",
                                                     "stepType": "fixture",
-                                                    "duration": 0,
-                                                    "location": ""
-                                                },
-                                                {
-                                                    "id": "1nry2ebexzpxoy7p8g6n",
-                                                    "title": "video.saveAs",
-                                                    "type": "step",
-                                                    "stepType": "pw:api",
                                                     "duration": 1,
                                                     "location": ""
                                                 },
                                                 {
-                                                    "id": "cxy0hrtf58oqi0r46hig",
+                                                    "id": "r3jvwpq7wumcsr1m6fj5",
+                                                    "title": "video.saveAs",
+                                                    "type": "step",
+                                                    "stepType": "pw:api",
+                                                    "duration": 2,
+                                                    "location": ""
+                                                },
+                                                {
+                                                    "id": "itqhslmvdl8c6d1td6qf",
                                                     "title": "attach \"video\"",
                                                     "type": "step",
                                                     "stepType": "attach",
@@ -1260,10 +1260,10 @@
                                     "expectedStatus": "passed",
                                     "location": "tests/e2e/createRoom.spec.ts:29:9",
                                     "timestamps": [
-                                        1735211832767,
-                                        1735211841261
+                                        1735212948321,
+                                        1735212954819
                                     ],
-                                    "duration": 8494,
+                                    "duration": 6498,
                                     "tags": [],
                                     "timeout": 90000,
                                     "retry": 0,
@@ -1273,81 +1273,81 @@
                                     "stepSubs": true,
                                     "subs": [
                                         {
-                                            "id": "tgsr53mzbd07qa52bif1",
+                                            "id": "leg0xl9slz7208j5yfp0",
                                             "title": "Before Hooks",
                                             "type": "step",
                                             "stepType": "hook",
-                                            "duration": 981,
+                                            "duration": 902,
                                             "location": "",
                                             "subs": [
                                                 {
-                                                    "id": "6fz82zob4aepimllorjv",
+                                                    "id": "wgvn0vtzqyd19yv7n8nl",
                                                     "title": "beforeEach hook",
                                                     "type": "step",
                                                     "stepType": "hook",
-                                                    "duration": 979,
+                                                    "duration": 900,
                                                     "location": "tests/e2e/createRoom.spec.ts:12:9",
                                                     "subs": [
                                                         {
-                                                            "id": "4yukrnsjte3axvx2tx7y",
+                                                            "id": "ywconwv18pn1okoe6rgw",
                                                             "title": "fixture: browser",
                                                             "type": "step",
                                                             "stepType": "fixture",
-                                                            "duration": 367,
+                                                            "duration": 350,
                                                             "location": "",
                                                             "subs": [
                                                                 {
-                                                                    "id": "e7rrubaqpiyl1qd2clzm",
+                                                                    "id": "mhiawo7mrlh9iu8p1mq5",
                                                                     "title": "browserType.launch",
                                                                     "type": "step",
                                                                     "stepType": "pw:api",
-                                                                    "duration": 361,
+                                                                    "duration": 346,
                                                                     "location": ""
                                                                 }
                                                             ]
                                                         },
                                                         {
-                                                            "id": "uezd7q079yy7rubp5b6x",
+                                                            "id": "c6zz7o7ywfdc5187yrtm",
                                                             "title": "fixture: context",
                                                             "type": "step",
                                                             "stepType": "fixture",
-                                                            "duration": 159,
+                                                            "duration": 148,
                                                             "location": "",
                                                             "subs": [
                                                                 {
-                                                                    "id": "y7keauojdnruga8v2j9y",
+                                                                    "id": "d2tzao3nm7n2iifds7eo",
                                                                     "title": "browser.newContext",
                                                                     "type": "step",
                                                                     "stepType": "pw:api",
-                                                                    "duration": 137,
+                                                                    "duration": 8,
                                                                     "location": ""
                                                                 }
                                                             ]
                                                         },
                                                         {
-                                                            "id": "6g0jd68uqdqy1oup1b12",
+                                                            "id": "ovudmijcfv1sdy9idba5",
                                                             "title": "fixture: page",
                                                             "type": "step",
                                                             "stepType": "fixture",
-                                                            "duration": 412,
+                                                            "duration": 373,
                                                             "location": "",
                                                             "subs": [
                                                                 {
-                                                                    "id": "pl3zm0qvrvk4gdlh471e",
+                                                                    "id": "vfrqdnjv1sneseg4jiu6",
                                                                     "title": "browserContext.newPage",
                                                                     "type": "step",
                                                                     "stepType": "pw:api",
-                                                                    "duration": 393,
+                                                                    "duration": 372,
                                                                     "location": ""
                                                                 }
                                                             ]
                                                         },
                                                         {
-                                                            "id": "i96temimmjmtyxqt6tlo",
+                                                            "id": "8l60otjd2s5zmzyb1h0w",
                                                             "title": "page.goto(/#/admin/)",
                                                             "type": "step",
                                                             "stepType": "pw:api",
-                                                            "duration": 3741,
+                                                            "duration": 4137,
                                                             "location": "pages/BookingManagementPage.ts:133:25"
                                                         }
                                                     ]
@@ -1355,87 +1355,87 @@
                                             ]
                                         },
                                         {
-                                            "id": "fiiwadl87xgmfz5pa0r4",
+                                            "id": "6n5nd4iobq945eue9ke7",
                                             "title": "locator.getByTestId('roomName').fill",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 4034,
+                                            "duration": 4871,
                                             "location": "pages/BookingManagementPage.ts:120:29"
                                         },
                                         {
-                                            "id": "hxlmkzim4uopibhfyyu0",
+                                            "id": "31stqz88q2yw8o6pgnhc",
                                             "title": "locator.selectOption(#type)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 28,
+                                            "duration": 11,
                                             "location": "pages/BookingManagementPage.ts:107:29"
                                         },
                                         {
-                                            "id": "vaxccaeafqrwy0m2gair",
+                                            "id": "m26a6tr827knctfy7nth",
                                             "title": "locator.selectOption(#accessible)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 21,
+                                            "duration": 5,
                                             "location": "pages/BookingManagementPage.ts:112:39"
                                         },
                                         {
-                                            "id": "4r2syucn6vxxz1lpsezm",
+                                            "id": "7vy0wb8px1lcjpqsshow",
                                             "title": "locator.fill(#roomPrice)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 38,
+                                            "duration": 10,
                                             "location": "pages/BookingManagementPage.ts:123:30"
                                         },
                                         {
-                                            "id": "14oe1lw0fxtifm7zvp9q",
+                                            "id": "gd0arns3w45yvdoewixk",
                                             "title": "locator.check(#tvCheckbox)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 429,
+                                            "duration": 147,
                                             "location": "pages/BookingManagementPage.ts:78:27"
                                         },
                                         {
-                                            "id": "tvcstak104knqizkyqea",
+                                            "id": "rv7p9qwl55m50cpbcgw5",
                                             "title": "locator.check(#radioCheckbox)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 43,
+                                            "duration": 190,
                                             "location": "pages/BookingManagementPage.ts:84:30"
                                         },
                                         {
-                                            "id": "f7e7d3ebg12smdj4rkad",
+                                            "id": "zv1kq6sbs67azfk56l81",
                                             "title": "locator.click(#createRoom)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 209,
+                                            "duration": 58,
                                             "location": "pages/BookingManagementPage.ts:126:33"
                                         },
                                         {
-                                            "id": "28osnrdm0hbfxjy5dctk",
+                                            "id": "tbph5r7smtc8ybn898y5",
                                             "title": "expect.toBeTruthy",
                                             "type": "step",
                                             "stepType": "expect",
-                                            "duration": 5,
+                                            "duration": 1,
                                             "location": "tests/e2e/createRoom.spec.ts:34:52"
                                         },
                                         {
-                                            "id": "357x6ywvofe943ykl8mv",
+                                            "id": "ur07z65c5b74nyf1ct90",
                                             "title": "After Hooks",
                                             "type": "step",
                                             "stepType": "hook",
-                                            "duration": 2652,
+                                            "duration": 272,
                                             "location": "",
                                             "subs": [
                                                 {
-                                                    "id": "rtzn9vayn4bstq4pp6oi",
+                                                    "id": "iytwku4n5j4oa5jplv1r",
                                                     "title": "fixture: page",
                                                     "type": "step",
                                                     "stepType": "fixture",
-                                                    "duration": 4,
+                                                    "duration": 1,
                                                     "location": ""
                                                 },
                                                 {
-                                                    "id": "405la0yen9xjrkzqwtxk",
+                                                    "id": "lsvtp1gztiq0p3eux8gi",
                                                     "title": "fixture: context",
                                                     "type": "step",
                                                     "stepType": "fixture",
@@ -1443,15 +1443,15 @@
                                                     "location": ""
                                                 },
                                                 {
-                                                    "id": "zchm1ulqxwm1cbyhsn3n",
+                                                    "id": "2460utziqjl06brlrzqs",
                                                     "title": "video.saveAs",
                                                     "type": "step",
                                                     "stepType": "pw:api",
-                                                    "duration": 8,
+                                                    "duration": 68,
                                                     "location": ""
                                                 },
                                                 {
-                                                    "id": "6d2ddve1s10ufzlxc9ce",
+                                                    "id": "apir3nk3pmhhl90iehno",
                                                     "title": "attach \"video\"",
                                                     "type": "step",
                                                     "stepType": "attach",
@@ -1500,10 +1500,10 @@
                                     "expectedStatus": "passed",
                                     "location": "tests/e2e/sendingMessage.spec.ts:26:9",
                                     "timestamps": [
-                                        1735211832789,
-                                        1735211842800
+                                        1735212948309,
+                                        1735212958718
                                     ],
-                                    "duration": 10011,
+                                    "duration": 10409,
                                     "tags": [],
                                     "timeout": 90000,
                                     "retry": 0,
@@ -1513,103 +1513,103 @@
                                     "stepSubs": true,
                                     "subs": [
                                         {
-                                            "id": "8lyk6jx0dqn8rn3b9afz",
+                                            "id": "g5e9czcam5um6y94qbyn",
                                             "title": "Before Hooks",
                                             "type": "step",
                                             "stepType": "hook",
-                                            "duration": 5398,
+                                            "duration": 5671,
                                             "location": "",
                                             "subs": [
                                                 {
-                                                    "id": "jtn9wu2rhje8otbvorkz",
+                                                    "id": "7f9n2ixg36rklxefiutr",
                                                     "title": "beforeEach hook",
                                                     "type": "step",
                                                     "stepType": "hook",
-                                                    "duration": 5390,
+                                                    "duration": 5661,
                                                     "location": "tests/e2e/sendingMessage.spec.ts:18:10",
                                                     "subs": [
                                                         {
-                                                            "id": "22o7by42vaalonexmazb",
+                                                            "id": "6bzlhnxbuehsbqftpq9z",
                                                             "title": "fixture: browser",
                                                             "type": "step",
                                                             "stepType": "fixture",
-                                                            "duration": 352,
+                                                            "duration": 349,
                                                             "location": "",
                                                             "subs": [
                                                                 {
-                                                                    "id": "4pbmuc43cbzbm40jihos",
+                                                                    "id": "08t6zaegds2rqptipw30",
                                                                     "title": "browserType.launch",
                                                                     "type": "step",
                                                                     "stepType": "pw:api",
-                                                                    "duration": 344,
+                                                                    "duration": 324,
                                                                     "location": ""
                                                                 }
                                                             ]
                                                         },
                                                         {
-                                                            "id": "1ebowpd4mps4rd5h5glw",
+                                                            "id": "cp52v2l4z8qe7bkuvxbx",
                                                             "title": "fixture: context",
                                                             "type": "step",
                                                             "stepType": "fixture",
-                                                            "duration": 130,
+                                                            "duration": 151,
                                                             "location": "",
                                                             "subs": [
                                                                 {
-                                                                    "id": "d9m7wwq39vn59jxe3k5m",
+                                                                    "id": "tvrpoprnyxo3hrhg3j5f",
                                                                     "title": "browser.newContext",
                                                                     "type": "step",
                                                                     "stepType": "pw:api",
-                                                                    "duration": 110,
+                                                                    "duration": 127,
                                                                     "location": ""
                                                                 }
                                                             ]
                                                         },
                                                         {
-                                                            "id": "sja2r8t6zih7c6vxw1zk",
+                                                            "id": "h4ywm1b7huv9jzw4he7h",
                                                             "title": "fixture: page",
                                                             "type": "step",
                                                             "stepType": "fixture",
-                                                            "duration": 424,
+                                                            "duration": 392,
                                                             "location": "",
                                                             "subs": [
                                                                 {
-                                                                    "id": "m4lht430iptyusl539hc",
+                                                                    "id": "opcl9csaz05346mkernf",
                                                                     "title": "browserContext.newPage",
                                                                     "type": "step",
                                                                     "stepType": "pw:api",
-                                                                    "duration": 421,
+                                                                    "duration": 387,
                                                                     "location": ""
                                                                 }
                                                             ]
                                                         },
                                                         {
-                                                            "id": "0g85emj01eg1pfz3wbv6",
+                                                            "id": "n4vq7use6lyd2w059jih",
                                                             "title": "page.goto(/)",
                                                             "type": "step",
                                                             "stepType": "pw:api",
-                                                            "duration": 388,
+                                                            "duration": 704,
                                                             "location": "pages/BasePage.ts:11:25"
                                                         },
                                                         {
-                                                            "id": "1ofopt3t8dyidw3px35j",
+                                                            "id": "3b641ca2cfktituie8u8",
                                                             "title": "expect.toBeVisible",
                                                             "type": "step",
                                                             "stepType": "expect",
-                                                            "duration": 4291,
+                                                            "duration": 4587,
                                                             "location": "tests/e2e/sendingMessage.spec.ts:22:39"
                                                         },
                                                         {
-                                                            "id": "f3q7wc9wbpt99q0hbht0",
+                                                            "id": "1hi1lsiz42pn9ww5xyjp",
                                                             "title": "locator.getByAltText('Link to home page').click",
                                                             "type": "step",
                                                             "stepType": "pw:api",
-                                                            "duration": 149,
+                                                            "duration": 138,
                                                             "location": "pages/HomePage.ts:40:33"
                                                         }
                                                     ]
                                                 },
                                                 {
-                                                    "id": "dr5k2j9v5yi4h14h48yc",
+                                                    "id": "5eq4nukgd15mlmoi8d7m",
                                                     "title": "fixture: request",
                                                     "type": "step",
                                                     "stepType": "fixture",
@@ -1617,7 +1617,7 @@
                                                     "location": "",
                                                     "subs": [
                                                         {
-                                                            "id": "h9x00maq2lujp6azzbr1",
+                                                            "id": "amykdzsw5nhqhi5y3i90",
                                                             "title": "apiRequest.newContext",
                                                             "type": "step",
                                                             "stepType": "pw:api",
@@ -1629,95 +1629,95 @@
                                             ]
                                         },
                                         {
-                                            "id": "n3ugw2awf165xr360bft",
+                                            "id": "d8w7lte8j5m5k96gnvyz",
                                             "title": "locator.getByTestId('ContactName').fill",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 478,
+                                            "duration": 842,
                                             "location": "pages/SendingMessagePage.ts:34:32"
                                         },
                                         {
-                                            "id": "1s5ilanicejwgieurkou",
+                                            "id": "6mut5onkq8dg7v02yjwu",
                                             "title": "locator.getByTestId('ContactPhone').fill",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 10,
+                                            "duration": 8,
                                             "location": "pages/SendingMessagePage.ts:35:33"
                                         },
                                         {
-                                            "id": "1mxj87yl9h7cf3vawsp6",
+                                            "id": "h5jk3ze7uz76kfvd5tyh",
                                             "title": "locator.getByTestId('ContactEmail').fill",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 29,
+                                            "duration": 13,
                                             "location": "pages/SendingMessagePage.ts:36:33"
                                         },
                                         {
-                                            "id": "5afuywz9j7q8e53h3zks",
+                                            "id": "nicin9rygmvosrbpskp0",
                                             "title": "locator.getByTestId('ContactSubject').fill",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 43,
+                                            "duration": 7,
                                             "location": "pages/SendingMessagePage.ts:37:35"
                                         },
                                         {
-                                            "id": "5e0l56q6yvqo23395hrd",
+                                            "id": "pikeva72re34kda6830t",
                                             "title": "locator.getByTestId('ContactDescription').fill",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 24,
+                                            "duration": 14,
                                             "location": "pages/SendingMessagePage.ts:38:39"
                                         },
                                         {
-                                            "id": "wsjbdsd78y8e16sgdmxh",
+                                            "id": "rqbrhcvyvc4ftr0ogtwy",
                                             "title": "locator.click(#submitContact)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 173,
+                                            "duration": 94,
                                             "location": "pages/SendingMessagePage.ts:39:27"
                                         },
                                         {
-                                            "id": "76udx1tocylgtuxbhjs5",
+                                            "id": "n7keobm2r8nut7kip017",
                                             "title": "expect.toHaveText",
                                             "type": "step",
                                             "stepType": "expect",
-                                            "duration": 120,
+                                            "duration": 147,
                                             "location": "tests/e2e/sendingMessage.spec.ts:29:53"
                                         },
                                         {
-                                            "id": "knqhaisdcncrp94ffvch",
+                                            "id": "icmcqgonzh0bvt8irv83",
                                             "title": "expect.toHaveText",
                                             "type": "step",
                                             "stepType": "expect",
-                                            "duration": 11,
+                                            "duration": 4,
                                             "location": "tests/e2e/sendingMessage.spec.ts:30:53"
                                         },
                                         {
-                                            "id": "sibyv6itl3jqb2uk7bdm",
+                                            "id": "ofq48cbb2ftubxisnyhb",
                                             "title": "expect.toHaveText",
                                             "type": "step",
                                             "stepType": "expect",
-                                            "duration": 16,
+                                            "duration": 3,
                                             "location": "tests/e2e/sendingMessage.spec.ts:31:51"
                                         },
                                         {
-                                            "id": "h7gdo4xq238you0wwepn",
+                                            "id": "frzxuba3u20k0ggmx7y4",
                                             "title": "expect.toHaveText",
                                             "type": "step",
                                             "stepType": "expect",
-                                            "duration": 20,
+                                            "duration": 8,
                                             "location": "tests/e2e/sendingMessage.spec.ts:32:53"
                                         },
                                         {
-                                            "id": "6fa58k93q0stlrumu9yp",
+                                            "id": "du45aj9buvn4yzozqxeq",
                                             "title": "apiRequestContext.get(/message/)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 3357,
+                                            "duration": 3188,
                                             "location": "tests/e2e/sendingMessage.spec.ts:34:38"
                                         },
                                         {
-                                            "id": "gqwd8t0fzxismw2cnzqm",
+                                            "id": "qurxfjzqcjvwmpx88lu3",
                                             "title": "expect.toBe",
                                             "type": "step",
                                             "stepType": "expect",
@@ -1725,23 +1725,23 @@
                                             "location": "tests/e2e/sendingMessage.spec.ts:35:35"
                                         },
                                         {
-                                            "id": "9551stmcz4d2fvbh043f",
+                                            "id": "ywd2kfw6y40no7x31whs",
                                             "title": "apiResponse.text",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 1,
+                                            "duration": 0,
                                             "location": "tests/e2e/sendingMessage.spec.ts:36:54"
                                         },
                                         {
-                                            "id": "zstbgobomzph9ja1vzki",
-                                            "title": "apiRequestContext.get(/message/13)",
+                                            "id": "0rn5s45b05oj02b6jifa",
+                                            "title": "apiRequestContext.get(/message/21)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 101,
+                                            "duration": 73,
                                             "location": "tests/e2e/sendingMessage.spec.ts:42:34"
                                         },
                                         {
-                                            "id": "ve562finert1gtzrggr0",
+                                            "id": "zuenq6s66itaom73am5h",
                                             "title": "expect.toBe",
                                             "type": "step",
                                             "stepType": "expect",
@@ -1749,7 +1749,7 @@
                                             "location": "tests/e2e/sendingMessage.spec.ts:43:35"
                                         },
                                         {
-                                            "id": "3j76530qdkcoyqpk83rf",
+                                            "id": "bnimnspsk7wpq12g7tfb",
                                             "title": "apiResponse.text",
                                             "type": "step",
                                             "stepType": "pw:api",
@@ -1757,7 +1757,7 @@
                                             "location": "tests/e2e/sendingMessage.spec.ts:44:50"
                                         },
                                         {
-                                            "id": "2wa48j1lp0tgupb7xy38",
+                                            "id": "yrfoev88usukjutkvnxu",
                                             "title": "expect.toBe",
                                             "type": "step",
                                             "stepType": "expect",
@@ -1765,15 +1765,15 @@
                                             "location": "tests/e2e/sendingMessage.spec.ts:45:38"
                                         },
                                         {
-                                            "id": "v4s4ififkrfs72wcmqdx",
+                                            "id": "ud5zdaw5vn8lltbf8vvi",
                                             "title": "After Hooks",
                                             "type": "step",
                                             "stepType": "hook",
-                                            "duration": 150,
+                                            "duration": 307,
                                             "location": "",
                                             "subs": [
                                                 {
-                                                    "id": "bsfk8gr8wjat5d6es6jk",
+                                                    "id": "fllkaklh0sqch06iwixv",
                                                     "title": "fixture: request",
                                                     "type": "step",
                                                     "stepType": "fixture",
@@ -1781,17 +1781,17 @@
                                                     "location": "",
                                                     "subs": [
                                                         {
-                                                            "id": "ts85izmfecmqgb7qiury",
+                                                            "id": "nlpo9yi161a43t7yf51i",
                                                             "title": "apiRequestContext.dispose",
                                                             "type": "step",
                                                             "stepType": "pw:api",
-                                                            "duration": 1,
+                                                            "duration": 2,
                                                             "location": ""
                                                         }
                                                     ]
                                                 },
                                                 {
-                                                    "id": "b2xr4i4ru32voq7zikzd",
+                                                    "id": "rd5mt79xmbozml3wckv4",
                                                     "title": "fixture: page",
                                                     "type": "step",
                                                     "stepType": "fixture",
@@ -1799,7 +1799,7 @@
                                                     "location": ""
                                                 },
                                                 {
-                                                    "id": "4x5c97rrdpn2redf0cx5",
+                                                    "id": "qon4xtq59a7j1cprquhb",
                                                     "title": "fixture: context",
                                                     "type": "step",
                                                     "stepType": "fixture",
@@ -1807,7 +1807,7 @@
                                                     "location": ""
                                                 },
                                                 {
-                                                    "id": "mzrhziatf8flc3vcrl1q",
+                                                    "id": "5owirv2hocljirwgzdpn",
                                                     "title": "video.saveAs",
                                                     "type": "step",
                                                     "stepType": "pw:api",
@@ -1815,7 +1815,7 @@
                                                     "location": ""
                                                 },
                                                 {
-                                                    "id": "uua588tolxr8mdx3n0mx",
+                                                    "id": "f0yve85hso2dr7m98mvs",
                                                     "title": "attach \"video\"",
                                                     "type": "step",
                                                     "stepType": "attach",
@@ -1844,10 +1844,10 @@
                                     "expectedStatus": "passed",
                                     "location": "tests/e2e/sendingMessage.spec.ts:48:9",
                                     "timestamps": [
-                                        1735211832819,
-                                        1735211841133
+                                        1735212948380,
+                                        1735212955179
                                     ],
-                                    "duration": 8314,
+                                    "duration": 6799,
                                     "tags": [],
                                     "timeout": 90000,
                                     "retry": 0,
@@ -1857,97 +1857,97 @@
                                     "stepSubs": true,
                                     "subs": [
                                         {
-                                            "id": "7tycdj7iartlx35fokrc",
+                                            "id": "t0phwfvaimyvl3f4pdee",
                                             "title": "Before Hooks",
                                             "type": "step",
                                             "stepType": "hook",
-                                            "duration": 5756,
+                                            "duration": 5545,
                                             "location": "",
                                             "subs": [
                                                 {
-                                                    "id": "b8xwkjk5jclw7fj9qpy8",
+                                                    "id": "zs0pd9gnyy9ys2c2wg3a",
                                                     "title": "beforeEach hook",
                                                     "type": "step",
                                                     "stepType": "hook",
-                                                    "duration": 5755,
+                                                    "duration": 5544,
                                                     "location": "tests/e2e/sendingMessage.spec.ts:18:10",
                                                     "subs": [
                                                         {
-                                                            "id": "9ahywioykjtykxw52dfy",
+                                                            "id": "bl1xvfp4ygecjxaj64ho",
                                                             "title": "fixture: browser",
                                                             "type": "step",
                                                             "stepType": "fixture",
-                                                            "duration": 320,
+                                                            "duration": 287,
                                                             "location": "",
                                                             "subs": [
                                                                 {
-                                                                    "id": "jb3aj0x8tr79kx0rx93k",
+                                                                    "id": "mn6thieimuj24cwyybhp",
                                                                     "title": "browserType.launch",
                                                                     "type": "step",
                                                                     "stepType": "pw:api",
-                                                                    "duration": 315,
+                                                                    "duration": 283,
                                                                     "location": ""
                                                                 }
                                                             ]
                                                         },
                                                         {
-                                                            "id": "sebnvr519ied8k83li3f",
+                                                            "id": "g5cykxxxv0dvpku0mjdt",
                                                             "title": "fixture: context",
                                                             "type": "step",
                                                             "stepType": "fixture",
-                                                            "duration": 180,
+                                                            "duration": 272,
                                                             "location": "",
                                                             "subs": [
                                                                 {
-                                                                    "id": "rt91bbc3h81i1tts28gb",
+                                                                    "id": "xol9qlcijwqfpe0cpmi3",
                                                                     "title": "browser.newContext",
                                                                     "type": "step",
                                                                     "stepType": "pw:api",
-                                                                    "duration": 131,
+                                                                    "duration": 100,
                                                                     "location": ""
                                                                 }
                                                             ]
                                                         },
                                                         {
-                                                            "id": "d801tj458ckgdrvfc9q8",
+                                                            "id": "jpif627k7jvv7j6fyckg",
                                                             "title": "fixture: page",
                                                             "type": "step",
                                                             "stepType": "fixture",
-                                                            "duration": 388,
+                                                            "duration": 336,
                                                             "location": "",
                                                             "subs": [
                                                                 {
-                                                                    "id": "rt91a4dbkfuvleha9k46",
+                                                                    "id": "hxq42119w0xp46rvq46v",
                                                                     "title": "browserContext.newPage",
                                                                     "type": "step",
                                                                     "stepType": "pw:api",
-                                                                    "duration": 385,
+                                                                    "duration": 334,
                                                                     "location": ""
                                                                 }
                                                             ]
                                                         },
                                                         {
-                                                            "id": "0fi2845yqz1cm1m23wgm",
+                                                            "id": "ap2o0rd7gtfno00hqoig",
                                                             "title": "page.goto(/)",
                                                             "type": "step",
                                                             "stepType": "pw:api",
-                                                            "duration": 637,
+                                                            "duration": 3535,
                                                             "location": "pages/BasePage.ts:11:25"
                                                         },
                                                         {
-                                                            "id": "ooov1pkzt036e1bukgns",
+                                                            "id": "2y0kj7ax2bzvg8ozped1",
                                                             "title": "expect.toBeVisible",
                                                             "type": "step",
                                                             "stepType": "expect",
-                                                            "duration": 4525,
+                                                            "duration": 4413,
                                                             "location": "tests/e2e/sendingMessage.spec.ts:22:39"
                                                         },
                                                         {
-                                                            "id": "dw24b3le6tdgun4enza3",
+                                                            "id": "d5ypqxc4tj9r1skwgyze",
                                                             "title": "locator.getByAltText('Link to home page').click",
                                                             "type": "step",
                                                             "stepType": "pw:api",
-                                                            "duration": 304,
+                                                            "duration": 208,
                                                             "location": "pages/HomePage.ts:40:33"
                                                         }
                                                     ]
@@ -1955,31 +1955,31 @@
                                             ]
                                         },
                                         {
-                                            "id": "je0dqdlx7wyoj4k5p8z1",
+                                            "id": "7mndk0i3hqybl9yf9vzw",
                                             "title": "locator.getByTestId('ContactName').fill",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 355,
+                                            "duration": 443,
                                             "location": "pages/SendingMessagePage.ts:34:32"
                                         },
                                         {
-                                            "id": "d5u7srfylt713yw84hy4",
+                                            "id": "gxydbzvxk53ufry5qp2c",
                                             "title": "locator.getByTestId('ContactPhone').fill",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 19,
+                                            "duration": 15,
                                             "location": "pages/SendingMessagePage.ts:35:33"
                                         },
                                         {
-                                            "id": "yt14xw5g0vb6oocbo3p9",
+                                            "id": "4fd5ir2ryzyfie669hcq",
                                             "title": "locator.getByTestId('ContactEmail').fill",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 26,
+                                            "duration": 10,
                                             "location": "pages/SendingMessagePage.ts:36:33"
                                         },
                                         {
-                                            "id": "9mwp4o7gbaok4kycn99u",
+                                            "id": "8tvov8718jyubzlmbm3v",
                                             "title": "locator.getByTestId('ContactSubject').fill",
                                             "type": "step",
                                             "stepType": "pw:api",
@@ -1987,39 +1987,39 @@
                                             "location": "pages/SendingMessagePage.ts:37:35"
                                         },
                                         {
-                                            "id": "vqpa4lt42rvvuvfrqqs9",
+                                            "id": "tie9onjola8xhs9btdue",
                                             "title": "locator.getByTestId('ContactDescription').fill",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 34,
+                                            "duration": 11,
                                             "location": "pages/SendingMessagePage.ts:38:39"
                                         },
                                         {
-                                            "id": "2qkyei3va75430egvsjb",
+                                            "id": "40i60fmkg772feswyb47",
                                             "title": "locator.click(#submitContact)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 72,
+                                            "duration": 107,
                                             "location": "pages/SendingMessagePage.ts:39:27"
                                         },
                                         {
-                                            "id": "1rf00mw02tobcryevctt",
+                                            "id": "lshsjpj3drjucquw6h0b",
                                             "title": "expect.toHaveText",
                                             "type": "step",
                                             "stepType": "expect",
-                                            "duration": 112,
+                                            "duration": 148,
                                             "location": "tests/e2e/sendingMessage.spec.ts:51:57"
                                         },
                                         {
-                                            "id": "cpv00n4xpq96hzfjm4fd",
+                                            "id": "ks6o83vyoo1sq0zv9i2x",
                                             "title": "After Hooks",
                                             "type": "step",
                                             "stepType": "hook",
-                                            "duration": 1827,
+                                            "duration": 488,
                                             "location": "",
                                             "subs": [
                                                 {
-                                                    "id": "8utd8q68dizlcl4gar99",
+                                                    "id": "0lw6b5ciqvrrl1bm5gyr",
                                                     "title": "fixture: page",
                                                     "type": "step",
                                                     "stepType": "fixture",
@@ -2027,7 +2027,7 @@
                                                     "location": ""
                                                 },
                                                 {
-                                                    "id": "k3m6gykg6x3rxbq26zc0",
+                                                    "id": "btlt845h8j09lidfq8qd",
                                                     "title": "fixture: context",
                                                     "type": "step",
                                                     "stepType": "fixture",
@@ -2035,19 +2035,19 @@
                                                     "location": ""
                                                 },
                                                 {
-                                                    "id": "6ro36vxffcaff0zx4n9o",
+                                                    "id": "x1175tewmw6pybv3wqba",
                                                     "title": "video.saveAs",
                                                     "type": "step",
                                                     "stepType": "pw:api",
-                                                    "duration": 5,
+                                                    "duration": 2,
                                                     "location": ""
                                                 },
                                                 {
-                                                    "id": "gymeswbzmedjk196ln5k",
+                                                    "id": "ek4pjsph5gt1asjnnkm2",
                                                     "title": "attach \"video\"",
                                                     "type": "step",
                                                     "stepType": "attach",
-                                                    "duration": 1,
+                                                    "duration": 0,
                                                     "location": ""
                                                 }
                                             ]
@@ -2072,10 +2072,10 @@
                                     "expectedStatus": "passed",
                                     "location": "tests/e2e/sendingMessage.spec.ts:54:9",
                                     "timestamps": [
-                                        1735211832744,
-                                        1735211841114
+                                        1735212948312,
+                                        1735212955265
                                     ],
-                                    "duration": 8370,
+                                    "duration": 6953,
                                     "tags": [],
                                     "timeout": 90000,
                                     "retry": 0,
@@ -2085,97 +2085,97 @@
                                     "stepSubs": true,
                                     "subs": [
                                         {
-                                            "id": "u7fix5134a6dj311atj6",
+                                            "id": "hpz8nggq6vbiaxb7286g",
                                             "title": "Before Hooks",
                                             "type": "step",
                                             "stepType": "hook",
-                                            "duration": 5999,
+                                            "duration": 5731,
                                             "location": "",
                                             "subs": [
                                                 {
-                                                    "id": "sb2xqjsjmoherj6u9mx2",
+                                                    "id": "hbh94tnpzwhs5ypfxuhc",
                                                     "title": "beforeEach hook",
                                                     "type": "step",
                                                     "stepType": "hook",
-                                                    "duration": 5997,
+                                                    "duration": 5731,
                                                     "location": "tests/e2e/sendingMessage.spec.ts:18:10",
                                                     "subs": [
                                                         {
-                                                            "id": "or5le4xy6e8pmx1m819f",
+                                                            "id": "x83ydn8v1v28v84yoyy7",
                                                             "title": "fixture: browser",
                                                             "type": "step",
                                                             "stepType": "fixture",
-                                                            "duration": 385,
+                                                            "duration": 350,
                                                             "location": "",
                                                             "subs": [
                                                                 {
-                                                                    "id": "zd4aqmxewr7hl99g29oa",
+                                                                    "id": "cz4suvwr0meuoeqerm1q",
                                                                     "title": "browserType.launch",
                                                                     "type": "step",
                                                                     "stepType": "pw:api",
-                                                                    "duration": 382,
+                                                                    "duration": 346,
                                                                     "location": ""
                                                                 }
                                                             ]
                                                         },
                                                         {
-                                                            "id": "406gk8yw3xe4zfxv24pu",
+                                                            "id": "a8t0m7uygvsky993tj8t",
                                                             "title": "fixture: context",
                                                             "type": "step",
                                                             "stepType": "fixture",
-                                                            "duration": 167,
+                                                            "duration": 174,
                                                             "location": "",
                                                             "subs": [
                                                                 {
-                                                                    "id": "h0dretzp3dorwf26mzd5",
+                                                                    "id": "jbn3t7h2ncbphz5icb1w",
                                                                     "title": "browser.newContext",
                                                                     "type": "step",
                                                                     "stepType": "pw:api",
-                                                                    "duration": 140,
+                                                                    "duration": 25,
                                                                     "location": ""
                                                                 }
                                                             ]
                                                         },
                                                         {
-                                                            "id": "4k8z7b2nkf38lozfovfq",
+                                                            "id": "reiqkb9sjttai27hf73w",
                                                             "title": "fixture: page",
                                                             "type": "step",
                                                             "stepType": "fixture",
-                                                            "duration": 405,
+                                                            "duration": 377,
                                                             "location": "",
                                                             "subs": [
                                                                 {
-                                                                    "id": "1fh1fjm9c6u5ei5suewu",
+                                                                    "id": "o3ezjrjmgyafxtdhggev",
                                                                     "title": "browserContext.newPage",
                                                                     "type": "step",
                                                                     "stepType": "pw:api",
-                                                                    "duration": 390,
+                                                                    "duration": 374,
                                                                     "location": ""
                                                                 }
                                                             ]
                                                         },
                                                         {
-                                                            "id": "0k8cvnsjmv3duhe6f48s",
+                                                            "id": "iipyryqs5b6y532r1til",
                                                             "title": "page.goto(/)",
                                                             "type": "step",
                                                             "stepType": "pw:api",
-                                                            "duration": 675,
+                                                            "duration": 796,
                                                             "location": "pages/BasePage.ts:11:25"
                                                         },
                                                         {
-                                                            "id": "qlccmgpu4wax6klciq2d",
+                                                            "id": "utj6e34wgetvjkg772nr",
                                                             "title": "expect.toBeVisible",
                                                             "type": "step",
                                                             "stepType": "expect",
-                                                            "duration": 4577,
+                                                            "duration": 4679,
                                                             "location": "tests/e2e/sendingMessage.spec.ts:22:39"
                                                         },
                                                         {
-                                                            "id": "shl10uklruzbt23zgrhp",
+                                                            "id": "th48pz25rb35s49cmioi",
                                                             "title": "locator.getByAltText('Link to home page').click",
                                                             "type": "step",
                                                             "stepType": "pw:api",
-                                                            "duration": 400,
+                                                            "duration": 114,
                                                             "location": "pages/HomePage.ts:40:33"
                                                         }
                                                     ]
@@ -2183,71 +2183,71 @@
                                             ]
                                         },
                                         {
-                                            "id": "qa5o7p6sccf98zj3pbql",
+                                            "id": "u0ahwri10dfeevnjyp4t",
                                             "title": "locator.getByTestId('ContactName').fill",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 385,
+                                            "duration": 827,
                                             "location": "pages/SendingMessagePage.ts:34:32"
                                         },
                                         {
-                                            "id": "gclbc19c7qvdcf21ph63",
+                                            "id": "qc5rck4hjaz7gxwa7spr",
                                             "title": "locator.getByTestId('ContactPhone').fill",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 16,
+                                            "duration": 10,
                                             "location": "pages/SendingMessagePage.ts:35:33"
                                         },
                                         {
-                                            "id": "eq4fwywvatg3t13jfsur",
+                                            "id": "6ediq9010pbomdqnwe7u",
                                             "title": "locator.getByTestId('ContactEmail').fill",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 30,
+                                            "duration": 8,
                                             "location": "pages/SendingMessagePage.ts:36:33"
                                         },
                                         {
-                                            "id": "gpgl9hhaqdyy38pcbafv",
+                                            "id": "ai6xuf65q85wbijbii21",
                                             "title": "locator.getByTestId('ContactSubject').fill",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 13,
+                                            "duration": 6,
                                             "location": "pages/SendingMessagePage.ts:37:35"
                                         },
                                         {
-                                            "id": "gcpogit1sdjnymd8z655",
+                                            "id": "s8lq1q5njjxfqtdh7fmz",
                                             "title": "locator.getByTestId('ContactDescription').fill",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 12,
+                                            "duration": 9,
                                             "location": "pages/SendingMessagePage.ts:38:39"
                                         },
                                         {
-                                            "id": "w6agi1bwnldmfecez5i5",
+                                            "id": "a2r4ew2q8zv41816a65f",
                                             "title": "locator.click(#submitContact)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 69,
+                                            "duration": 100,
                                             "location": "pages/SendingMessagePage.ts:39:27"
                                         },
                                         {
-                                            "id": "4f815rc2qjvera5tz96b",
+                                            "id": "927s0fg2k7v08nuj2yc6",
                                             "title": "expect.toHaveText",
                                             "type": "step",
                                             "stepType": "expect",
-                                            "duration": 108,
+                                            "duration": 128,
                                             "location": "tests/e2e/sendingMessage.spec.ts:57:57"
                                         },
                                         {
-                                            "id": "ni6jvzynqu0h16w2xtdm",
+                                            "id": "q73bb337twtlsixnn94b",
                                             "title": "After Hooks",
                                             "type": "step",
                                             "stepType": "hook",
-                                            "duration": 1708,
+                                            "duration": 114,
                                             "location": "",
                                             "subs": [
                                                 {
-                                                    "id": "6h6lrmulevyscy11k5ik",
+                                                    "id": "0zdi846mhgco5ryuj2kx",
                                                     "title": "fixture: page",
                                                     "type": "step",
                                                     "stepType": "fixture",
@@ -2255,7 +2255,7 @@
                                                     "location": ""
                                                 },
                                                 {
-                                                    "id": "chi1h9n3x78pg15b8o6z",
+                                                    "id": "oxdtn4p537f6rl1gwyuk",
                                                     "title": "fixture: context",
                                                     "type": "step",
                                                     "stepType": "fixture",
@@ -2263,19 +2263,19 @@
                                                     "location": ""
                                                 },
                                                 {
-                                                    "id": "yq4ohbywvbt26foszif9",
+                                                    "id": "0ljyhadzu840ezvg5k1h",
                                                     "title": "video.saveAs",
                                                     "type": "step",
                                                     "stepType": "pw:api",
-                                                    "duration": 4,
+                                                    "duration": 2,
                                                     "location": ""
                                                 },
                                                 {
-                                                    "id": "iqpfrzaza5zc3xmbalbd",
+                                                    "id": "6wsqm3vv2xpfe3c0dl8b",
                                                     "title": "attach \"video\"",
                                                     "type": "step",
                                                     "stepType": "attach",
-                                                    "duration": 1,
+                                                    "duration": 0,
                                                     "location": ""
                                                 }
                                             ]
@@ -2300,10 +2300,10 @@
                                     "expectedStatus": "passed",
                                     "location": "tests/e2e/sendingMessage.spec.ts:60:9",
                                     "timestamps": [
-                                        1735211840836,
-                                        1735211844493
+                                        1735212954759,
+                                        1735212957195
                                     ],
-                                    "duration": 3657,
+                                    "duration": 2436,
                                     "tags": [],
                                     "timeout": 90000,
                                     "retry": 0,
@@ -2313,79 +2313,79 @@
                                     "stepSubs": true,
                                     "subs": [
                                         {
-                                            "id": "xrv4ctc8bi58ty38g3wh",
+                                            "id": "gt8aeqasbb3c85mqci3z",
                                             "title": "Before Hooks",
                                             "type": "step",
                                             "stepType": "hook",
-                                            "duration": 2626,
+                                            "duration": 1249,
                                             "location": "",
                                             "subs": [
                                                 {
-                                                    "id": "lkjz880mzh310wqynm0f",
+                                                    "id": "khk4yqmpd6o9nuclxyre",
                                                     "title": "beforeEach hook",
                                                     "type": "step",
                                                     "stepType": "hook",
-                                                    "duration": 2625,
+                                                    "duration": 1249,
                                                     "location": "tests/e2e/sendingMessage.spec.ts:18:10",
                                                     "subs": [
                                                         {
-                                                            "id": "p4d67s1x3p8uk1be86ec",
+                                                            "id": "2pb5th85i2rha4cb92fs",
                                                             "title": "fixture: context",
                                                             "type": "step",
                                                             "stepType": "fixture",
-                                                            "duration": 7,
+                                                            "duration": 23,
                                                             "location": "",
                                                             "subs": [
                                                                 {
-                                                                    "id": "oyxk9084bjlmfbn7lc9d",
+                                                                    "id": "owal76v5jeenip6ksjmh",
                                                                     "title": "browser.newContext",
                                                                     "type": "step",
                                                                     "stepType": "pw:api",
-                                                                    "duration": 4,
+                                                                    "duration": 11,
                                                                     "location": ""
                                                                 }
                                                             ]
                                                         },
                                                         {
-                                                            "id": "6ubna442unyb5r4vow3o",
+                                                            "id": "upzfxz12a8x1c3yu3v01",
                                                             "title": "fixture: page",
                                                             "type": "step",
                                                             "stepType": "fixture",
-                                                            "duration": 246,
+                                                            "duration": 112,
                                                             "location": "",
                                                             "subs": [
                                                                 {
-                                                                    "id": "w20h6lq7ulywwqnmg3me",
+                                                                    "id": "fesfjqgacrehu3whgh2t",
                                                                     "title": "browserContext.newPage",
                                                                     "type": "step",
                                                                     "stepType": "pw:api",
-                                                                    "duration": 244,
+                                                                    "duration": 107,
                                                                     "location": ""
                                                                 }
                                                             ]
                                                         },
                                                         {
-                                                            "id": "3ipbd7sd7evl38uaw4tu",
+                                                            "id": "wtsb1hr07b9c5r25il7h",
                                                             "title": "page.goto(/)",
                                                             "type": "step",
                                                             "stepType": "pw:api",
-                                                            "duration": 1440,
+                                                            "duration": 176,
                                                             "location": "pages/BasePage.ts:11:25"
                                                         },
                                                         {
-                                                            "id": "8lee213v497ci04lpje2",
+                                                            "id": "zlxxpga7rgp6ob8w8904",
                                                             "title": "expect.toBeVisible",
                                                             "type": "step",
                                                             "stepType": "expect",
-                                                            "duration": 2324,
+                                                            "duration": 1060,
                                                             "location": "tests/e2e/sendingMessage.spec.ts:22:39"
                                                         },
                                                         {
-                                                            "id": "cu2mj2nvpvavloisekw9",
+                                                            "id": "20n7m42k948kxuju1qlg",
                                                             "title": "locator.getByAltText('Link to home page').click",
                                                             "type": "step",
                                                             "stepType": "pw:api",
-                                                            "duration": 36,
+                                                            "duration": 41,
                                                             "location": "pages/HomePage.ts:40:33"
                                                         }
                                                     ]
@@ -2393,79 +2393,79 @@
                                             ]
                                         },
                                         {
-                                            "id": "hhgyk7ucurl2o6tbffoi",
+                                            "id": "kyzl19mz41vze0ry5wb8",
                                             "title": "locator.getByTestId('ContactName').fill",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 798,
+                                            "duration": 793,
                                             "location": "pages/SendingMessagePage.ts:34:32"
                                         },
                                         {
-                                            "id": "n0r4xglqslmzxo8fq8bm",
+                                            "id": "s19v7iqj225xe396qsgs",
                                             "title": "locator.getByTestId('ContactPhone').fill",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 6,
+                                            "duration": 5,
                                             "location": "pages/SendingMessagePage.ts:35:33"
                                         },
                                         {
-                                            "id": "1zyp20rdf3su8j05tgq5",
+                                            "id": "ezyxoo3w92srgbld6r6o",
                                             "title": "locator.getByTestId('ContactEmail').fill",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 6,
+                                            "duration": 9,
                                             "location": "pages/SendingMessagePage.ts:36:33"
                                         },
                                         {
-                                            "id": "q1w49zc5t3r22ey9gvy9",
+                                            "id": "t719ns64vybx92bq5ul4",
                                             "title": "locator.getByTestId('ContactSubject').fill",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 6,
+                                            "duration": 5,
                                             "location": "pages/SendingMessagePage.ts:37:35"
                                         },
                                         {
-                                            "id": "pqi0g8cvqc474i7e46iy",
+                                            "id": "xf6ynapmhzp23b2rlf14",
                                             "title": "locator.getByTestId('ContactDescription').fill",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 7,
+                                            "duration": 5,
                                             "location": "pages/SendingMessagePage.ts:38:39"
                                         },
                                         {
-                                            "id": "r9bd14flyaitc9vq3txx",
+                                            "id": "8qu7a2tya4y7bvhccsmg",
                                             "title": "locator.click(#submitContact)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 29,
+                                            "duration": 39,
                                             "location": "pages/SendingMessagePage.ts:39:27"
                                         },
                                         {
-                                            "id": "tdoous52i8lr8d6bttt6",
+                                            "id": "d94wa1fvsqzdocy9cr8k",
                                             "title": "expect.toBeVisible",
                                             "type": "step",
                                             "stepType": "expect",
-                                            "duration": 103,
+                                            "duration": 105,
                                             "location": "tests/e2e/sendingMessage.spec.ts:63:64"
                                         },
                                         {
-                                            "id": "xkpwd4srx60lwsjx2xmx",
+                                            "id": "w10wbet142nskmw7mgt0",
                                             "title": "expect.toBeVisible",
                                             "type": "step",
                                             "stepType": "expect",
-                                            "duration": 2,
+                                            "duration": 1,
                                             "location": "tests/e2e/sendingMessage.spec.ts:64:64"
                                         },
                                         {
-                                            "id": "4forh1t96ju83m1uhge4",
+                                            "id": "1c3dn1fznlaji3349fb0",
                                             "title": "After Hooks",
                                             "type": "step",
                                             "stepType": "hook",
-                                            "duration": 69,
+                                            "duration": 215,
                                             "location": "",
                                             "subs": [
                                                 {
-                                                    "id": "euaxlqyei2wmf8hgv3bf",
+                                                    "id": "6trv7fjlk2t9nly1yb97",
                                                     "title": "fixture: page",
                                                     "type": "step",
                                                     "stepType": "fixture",
@@ -2473,7 +2473,7 @@
                                                     "location": ""
                                                 },
                                                 {
-                                                    "id": "3x0ne9yjfz3crwkpr418",
+                                                    "id": "apyg2pnvnrlta3lehrh9",
                                                     "title": "fixture: context",
                                                     "type": "step",
                                                     "stepType": "fixture",
@@ -2481,7 +2481,7 @@
                                                     "location": ""
                                                 },
                                                 {
-                                                    "id": "v856ts5m12ghk7qzrpki",
+                                                    "id": "7sl7uhga31h8ctwlr2ph",
                                                     "title": "video.saveAs",
                                                     "type": "step",
                                                     "stepType": "pw:api",
@@ -2489,11 +2489,11 @@
                                                     "location": ""
                                                 },
                                                 {
-                                                    "id": "o46p7mh0acaygx68re2o",
+                                                    "id": "rmdid6fw86xj30gmdbty",
                                                     "title": "attach \"video\"",
                                                     "type": "step",
                                                     "stepType": "attach",
-                                                    "duration": 0,
+                                                    "duration": 1,
                                                     "location": ""
                                                 }
                                             ]
@@ -2538,10 +2538,10 @@
                                     "expectedStatus": "passed",
                                     "location": "tests/e2e/updateRoom.spec.ts:18:7",
                                     "timestamps": [
-                                        1735211841126,
-                                        1735211847561
+                                        1735212954856,
+                                        1735212963672
                                     ],
-                                    "duration": 6435,
+                                    "duration": 8816,
                                     "tags": [],
                                     "timeout": 90000,
                                     "retry": 0,
@@ -2551,63 +2551,63 @@
                                     "stepSubs": true,
                                     "subs": [
                                         {
-                                            "id": "fcoexbiuh32i8jlyw022",
+                                            "id": "5yr2p6zpyzal1p9db29o",
                                             "title": "Before Hooks",
                                             "type": "step",
                                             "stepType": "hook",
-                                            "duration": 110,
+                                            "duration": 152,
                                             "location": "",
                                             "subs": [
                                                 {
-                                                    "id": "cj00rc3mksgwm2v1ifsz",
+                                                    "id": "egxa5jbmyx9fm4xbyo93",
                                                     "title": "fixture: request",
                                                     "type": "step",
                                                     "stepType": "fixture",
-                                                    "duration": 9,
+                                                    "duration": 19,
                                                     "location": "",
                                                     "subs": [
                                                         {
-                                                            "id": "6g3zt20yk9up58oc1wee",
+                                                            "id": "zc3b5h0kcgx8bx2cgz5u",
                                                             "title": "apiRequest.newContext",
                                                             "type": "step",
                                                             "stepType": "pw:api",
-                                                            "duration": 5,
+                                                            "duration": 1,
                                                             "location": ""
                                                         }
                                                     ]
                                                 },
                                                 {
-                                                    "id": "ijvos936ayrhyl895cco",
+                                                    "id": "fvwfotro8p5wpwda0esi",
                                                     "title": "fixture: context",
                                                     "type": "step",
                                                     "stepType": "fixture",
-                                                    "duration": 8,
+                                                    "duration": 14,
                                                     "location": "",
                                                     "subs": [
                                                         {
-                                                            "id": "4kx48d5kkk051hlej53w",
+                                                            "id": "louuipwx3dhotthvz65p",
                                                             "title": "browser.newContext",
                                                             "type": "step",
                                                             "stepType": "pw:api",
-                                                            "duration": 5,
+                                                            "duration": 6,
                                                             "location": ""
                                                         }
                                                     ]
                                                 },
                                                 {
-                                                    "id": "b1ufvxyk9tpyoussrll9",
+                                                    "id": "349zryemei8sy35flehd",
                                                     "title": "fixture: page",
                                                     "type": "step",
                                                     "stepType": "fixture",
-                                                    "duration": 88,
+                                                    "duration": 110,
                                                     "location": "",
                                                     "subs": [
                                                         {
-                                                            "id": "m5jhcm34jypjru9nmmes",
+                                                            "id": "22dcetc627i7jrej4org",
                                                             "title": "browserContext.newPage",
                                                             "type": "step",
                                                             "stepType": "pw:api",
-                                                            "duration": 87,
+                                                            "duration": 103,
                                                             "location": ""
                                                         }
                                                     ]
@@ -2615,31 +2615,31 @@
                                             ]
                                         },
                                         {
-                                            "id": "ztm4a7mbg6fhgly5azd1",
+                                            "id": "asdadlt0nrgj4dfddqk5",
                                             "title": "page.goto(/#/admin/)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 1724,
+                                            "duration": 3547,
                                             "location": "pages/BookingManagementPage.ts:133:25"
                                         },
                                         {
-                                            "id": "3jj49mhzaivazh493p3p",
+                                            "id": "y965klvdylnxryp1a0j5",
                                             "title": "expect.toBeVisible",
                                             "type": "step",
                                             "stepType": "expect",
-                                            "duration": 2179,
+                                            "duration": 4047,
                                             "location": "tests/e2e/updateRoom.spec.ts:21:58"
                                         },
                                         {
-                                            "id": "e8ztf6ub7nifj56cq5nx",
+                                            "id": "n0ejjbrz6qhzei716qhy",
                                             "title": "apiRequestContext.post(/room/)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 2738,
+                                            "duration": 3257,
                                             "location": "tests/e2e/updateRoom.spec.ts:25:34"
                                         },
                                         {
-                                            "id": "0farf4zmzg8syqsqf9tx",
+                                            "id": "c2d5n2d29icc8enpv4i7",
                                             "title": "expect.toBe",
                                             "type": "step",
                                             "stepType": "expect",
@@ -2647,15 +2647,15 @@
                                             "location": "tests/e2e/updateRoom.spec.ts:40:31"
                                         },
                                         {
-                                            "id": "xe1u8we6z5lhktjt9e4o",
+                                            "id": "vqc2e2xy2h2aulf9u49z",
                                             "title": "apiResponse.text",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 0,
+                                            "duration": 3,
                                             "location": "tests/e2e/updateRoom.spec.ts:41:52"
                                         },
                                         {
-                                            "id": "k28rojbysqf0260u95xb",
+                                            "id": "swxv8lb4f6chj9ux9r10",
                                             "title": "expect.toBe",
                                             "type": "step",
                                             "stepType": "expect",
@@ -2663,95 +2663,95 @@
                                             "location": "tests/e2e/updateRoom.spec.ts:43:35"
                                         },
                                         {
-                                            "id": "gcif6m0pi6151bxlb3z7",
-                                            "title": "page.goto(/#/admin/room/22)",
+                                            "id": "kgia4l79qbexewn8i5gj",
+                                            "title": "page.goto(/#/admin/room/37)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 4,
+                                            "duration": 1,
                                             "location": "pages/RoomPage.ts:19:25"
                                         },
                                         {
-                                            "id": "yswds8xb5t5jbjpfy1br",
+                                            "id": "dejxk2zjynnez9cgz17m",
                                             "title": "expect.toHaveText",
                                             "type": "step",
                                             "stepType": "expect",
-                                            "duration": 362,
+                                            "duration": 363,
                                             "location": "tests/e2e/updateRoom.spec.ts:47:41"
                                         },
                                         {
-                                            "id": "j8nl8yp8t7yg7qvjmr1o",
+                                            "id": "bhuinjr4z0w9di596feg",
                                             "title": "locator.getByText('Edit').click",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 23,
+                                            "duration": 34,
                                             "location": "pages/RoomPage.ts:23:31"
                                         },
                                         {
-                                            "id": "76h1of7re7292hjbp9xk",
+                                            "id": "cs4mr23k56xa9m62sttz",
                                             "title": "locator.fill(#roomName)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 59,
+                                            "duration": 60,
                                             "location": "pages/EditRoomPage.ts:65:33"
                                         },
                                         {
-                                            "id": "obi31b58iho961sd7l55",
+                                            "id": "6mih69w4sfp1f39ybz9p",
                                             "title": "locator.selectOption(#type)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 5,
+                                            "duration": 4,
                                             "location": "pages/EditRoomPage.ts:122:33"
                                         },
                                         {
-                                            "id": "ersqak4k19g5qqkn1cmx",
+                                            "id": "zw55h3iqvgnqiqdb2i5c",
                                             "title": "locator.selectOption(#accessible)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 4,
+                                            "duration": 6,
                                             "location": "pages/EditRoomPage.ts:127:43"
                                         },
                                         {
-                                            "id": "bl58uz4ybkixofg90zfo",
+                                            "id": "cittd6uks2slk35t8zh3",
                                             "title": "locator.fill(#roomPrice)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 6,
+                                            "duration": 7,
                                             "location": "pages/EditRoomPage.ts:68:34"
                                         },
                                         {
-                                            "id": "g9425vmwlou5q2402o7h",
+                                            "id": "pj5rbmnf09ehy7ordwj4",
                                             "title": "locator.check(#wifiCheckbox)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 6,
+                                            "duration": 7,
                                             "location": "pages/EditRoomPage.ts:86:29"
                                         },
                                         {
-                                            "id": "qg6clyfbdpjfgyj88zzf",
+                                            "id": "9ykn48tkkzfs8z0sn0w0",
                                             "title": "locator.check(#refreshCheckbox)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 4,
+                                            "duration": 11,
                                             "location": "pages/EditRoomPage.ts:104:37"
                                         },
                                         {
-                                            "id": "ma5caoddx261u5xhy5gr",
+                                            "id": "7bqef8xhzpdh58uhvndq",
                                             "title": "locator.check(#safeCheckbox)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 35,
+                                            "duration": 21,
                                             "location": "pages/EditRoomPage.ts:110:29"
                                         },
                                         {
-                                            "id": "b25wiz3rizllti0pgecg",
+                                            "id": "dx4qbicianbl7mu24qwc",
                                             "title": "locator.check(#viewsCheckbox)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 27,
+                                            "duration": 32,
                                             "location": "pages/EditRoomPage.ts:116:30"
                                         },
                                         {
-                                            "id": "pvyslpdry7fn0gag6yw6",
+                                            "id": "mi9o1gg07pffqxzxnn57",
                                             "title": "locator.fill(#image)",
                                             "type": "step",
                                             "stepType": "pw:api",
@@ -2759,15 +2759,15 @@
                                             "location": "pages/EditRoomPage.ts:70:30"
                                         },
                                         {
-                                            "id": "pznxhvmisurtkcruvuko",
+                                            "id": "9depor98urscfc55ucc8",
                                             "title": "locator.fill(#description)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 5,
+                                            "duration": 6,
                                             "location": "pages/EditRoomPage.ts:71:36"
                                         },
                                         {
-                                            "id": "3atk451k7gsbor02yyqc",
+                                            "id": "lrq7bxcg2zn429jos3jx",
                                             "title": "locator.getByText('Update').click",
                                             "type": "step",
                                             "stepType": "pw:api",
@@ -2775,15 +2775,15 @@
                                             "location": "pages/EditRoomPage.ts:60:33"
                                         },
                                         {
-                                            "id": "wjwkv52pdcax78y23bwh",
+                                            "id": "dqhit107c5x2vuykj4nz",
                                             "title": "expect.toHaveText",
                                             "type": "step",
                                             "stepType": "expect",
-                                            "duration": 358,
+                                            "duration": 359,
                                             "location": "tests/e2e/updateRoom.spec.ts:63:41"
                                         },
                                         {
-                                            "id": "6a33awkd514l6bq003dg",
+                                            "id": "7bi178qpzga5rdbni6jm",
                                             "title": "expect.toHaveText",
                                             "type": "step",
                                             "stepType": "expect",
@@ -2791,31 +2791,31 @@
                                             "location": "tests/e2e/updateRoom.spec.ts:64:37"
                                         },
                                         {
-                                            "id": "bostxmfbpq21evh8y6b8",
-                                            "title": "apiRequestContext.delete(/room/22)",
+                                            "id": "w19sansqlpp446up218u",
+                                            "title": "apiRequestContext.delete(/room/37)",
                                             "type": "step",
                                             "stepType": "pw:api",
-                                            "duration": 122,
+                                            "duration": 82,
                                             "location": "tests/e2e/updateRoom.spec.ts:66:36"
                                         },
                                         {
-                                            "id": "bcjmbtnpmb0pgljxj7em",
+                                            "id": "k9mrt1r3xkqtmfeaqxmk",
                                             "title": "expect.toBe",
                                             "type": "step",
                                             "stepType": "expect",
-                                            "duration": 1,
+                                            "duration": 0,
                                             "location": "tests/e2e/updateRoom.spec.ts:67:31"
                                         },
                                         {
-                                            "id": "e31ifsmh5zyq2b5fh815",
+                                            "id": "ukg00vtn6ljackuaf4qx",
                                             "title": "After Hooks",
                                             "type": "step",
                                             "stepType": "hook",
-                                            "duration": 327,
+                                            "duration": 325,
                                             "location": "",
                                             "subs": [
                                                 {
-                                                    "id": "2xomdm0qgbyvuxsiu4na",
+                                                    "id": "gkipfvlb4zzcf4hycjo9",
                                                     "title": "fixture: page",
                                                     "type": "step",
                                                     "stepType": "fixture",
@@ -2823,7 +2823,7 @@
                                                     "location": ""
                                                 },
                                                 {
-                                                    "id": "j10vvd85luo6em1fwgyz",
+                                                    "id": "ijl40sywaub38bejyfjh",
                                                     "title": "fixture: context",
                                                     "type": "step",
                                                     "stepType": "fixture",
@@ -2831,15 +2831,15 @@
                                                     "location": ""
                                                 },
                                                 {
-                                                    "id": "gprocyuveruaz3xse718",
+                                                    "id": "zr3p031ueljclt2bwejj",
                                                     "title": "video.saveAs",
                                                     "type": "step",
                                                     "stepType": "pw:api",
-                                                    "duration": 1,
+                                                    "duration": 2,
                                                     "location": ""
                                                 },
                                                 {
-                                                    "id": "sbk2t42a4hza7uyayozd",
+                                                    "id": "6zjf7d7rlcud45xirsim",
                                                     "title": "attach \"video\"",
                                                     "type": "step",
                                                     "stepType": "attach",
@@ -2847,7 +2847,7 @@
                                                     "location": ""
                                                 },
                                                 {
-                                                    "id": "unz1kg1z5qsg8hvzqfqp",
+                                                    "id": "omfoh5mqdyxb74o3ahtq",
                                                     "title": "fixture: request",
                                                     "type": "step",
                                                     "stepType": "fixture",
@@ -2855,7 +2855,7 @@
                                                     "location": "",
                                                     "subs": [
                                                         {
-                                                            "id": "2o7sgr18bpjirbt08nqf",
+                                                            "id": "itsnzaz19o5d69bhnyun",
                                                             "title": "apiRequestContext.dispose",
                                                             "type": "step",
                                                             "stepType": "pw:api",
