@@ -133,8 +133,8 @@ jobs:
         run: |
           curl -o index.json https://milicadg.github.io/playwrightBooking/playwright-monocart-report/index.json
           npm run merge:report:monocart
-          # chmod +x ./merge-test-reports.sh
-          # ./merge-test-reports.sh
+          chmod +x ./merge-test-reports.sh
+          ./merge-test-reports.sh
       - name: Move to Reports folder
         id: move-to-reports-folder
         run: |
