@@ -133,8 +133,6 @@ jobs:
         run: |
           curl -o index.json https://milicadg.github.io/playwrightBooking/playwright-monocart-report/index.json
           npm run merge:report:monocart
-          chmod +x ./merge-test-reports.sh
-          ./merge-test-reports.sh
       - name: Move to Reports folder
         id: move-to-reports-folder
         run: |
@@ -147,8 +145,8 @@ jobs:
         id: upload-pages-artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # path: test-results/
-          path: playwright-report/
+          path: test-results/
+          # path: playwright-report/
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
