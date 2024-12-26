@@ -1,25 +1,15 @@
 name: Deploy playwright report
 on:
-  push:
-    branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
-  # Allows to run this workflow manually from the Actions tab 
   workflow_dispatch:
   schedule: 
     - cron: '0 19 * * 1'
-# Sets permissions of the GITHUB_TOKEN to allow deplooyment to GitHub pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
 jobs:
   install:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     name: install
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
       - name: Use Node.js
         uses: actions/setup-node@v4
@@ -57,7 +47,7 @@ jobs:
         shardTotal: [2]
         project: [ExecuteInChrome, ExecuteInFF, ExecuteInSafari]
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
       - name: Use Node.js
         uses: actions/setup-node@v4
@@ -75,6 +65,11 @@ jobs:
           path: |
             ~/.cache/ms-playwright
           key: playwright-${{ hashFiles('package-lock.json') }}
+      # Playwright caches the browser binaries, but not their dependencies.
+      # Those extra browser dependencies must be installed separately when the cached browsers are restored.
+      - name: Install Playwright System Dependencies
+        id: install-playwright-system-dependencies
+        run: npx playwright install-deps ${{ matrix.project }}
       - name: Run Playwright tests
         run: npx playwright test --project=${{ matrix.project }} --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }}
       - name: Setup Pages
@@ -83,7 +78,7 @@ jobs:
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: monocart-report-${{ matrix.project }}-${{ matrix.shardIndex }}_${{ matrix.shardTotal }}
+          name: playwright-monocart-report-${{ matrix.project }}-${{ matrix.shardIndex }}_${{ matrix.shardTotal }}
           path: playwright-monocart-report/
           if-no-files-found: ignore
           retention-days: 1
