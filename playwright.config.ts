@@ -45,13 +45,12 @@ const config: PlaywrightTestConfig = {
         name: 'My Test Report',
         outputFile: './playwright-monocart-report/index.html',
         // outputFile: './playwright-report/index.html'
-        trend: './playwright-monocart-report/index.json'
+        // trend: './playwright-monocart-report/index.json'
     }],
     ['list'],
     ['html', { open: 'never' }]
   ],
-  // outputDir: 'test-results',
-  outputDir: 'playwright-report',
+  outputDir: 'test-results',
 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
