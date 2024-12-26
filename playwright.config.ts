@@ -43,14 +43,15 @@ const config: PlaywrightTestConfig = {
   reporter: [
     ['monocart-reporter', {  
         name: 'My Test Report',
-        //outputFile: './playwright-monocart-report/index.html'
-        outputFile: './playwright-report/index.html'
+        outputFile: './playwright-monocart-report/index.html'
+        // outputFile: './playwright-report/index.html'
         // trend: './playwright-monocart-report/index.json'
     }],
     ['list'],
     ['html', { open: 'never' }]
   ],
-  outputDir: 'test-results',
+  // outputDir: 'test-results',
+  outputDir: 'playwright-report',
 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
