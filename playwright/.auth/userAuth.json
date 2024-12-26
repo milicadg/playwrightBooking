@@ -1,18 +1,8 @@
 {
   "cookies": [
     {
-      "name": "__cf_bm",
-      "value": "fLcOrOgldKlycRXhHtPzNnOBrzhC8Ny0dAYa1Wz4puk-1735212944-1.0.1.1-F4r8W7zDSkZmuIuIcbBMNPVZa9ULADexeV2xU_ChZ.RcrEhg4JIYKc5Dsu2Rm4iszzJfQVtk.Dc5IVbCfx0rzQ",
-      "domain": ".blog.postman.com",
-      "path": "/",
-      "expires": 1735214743.986836,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
       "name": "token",
-      "value": "Oky4j2Il2oWqunF9",
+      "value": "eYwjvOmW7msPlITO",
       "domain": "automationintesting.online",
       "path": "/",
       "expires": -1,
